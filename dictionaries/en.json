@@ -1,0 +1,189 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "courses": "Courses",
+    "contact": "Contact",
+    "schools": "Schools",
+    "professor": "Professor",
+    "mfd": "MFD"
+  },
+  "home": {
+    "schools": {
+      "title": "Schools of Music",
+      "subtitle": "Four Continents, One Tradition",
+      "description": "Follow the melody across India, Bangladesh, the United States, and Canada — four schools united by the living tradition of Rabindrasangeet and Bengali performing arts.",
+      "cta": "Explore the Schools"
+    },
+    "professor": {
+      "title": "Prof. (Dr.) Rezwana Choudhury Bannya",
+      "description": "Discover the vision and legacy of the master musician and cultural ambassador who founded Shurer Dhara and Music for Development, bringing Bengali classical music to the world.",
+      "cta": "Meet the Professor"
+    },
+    "mfd": {
+      "title": "Music for Development",
+      "subtitle": "Changing Lives Through Music",
+      "description": "Since 2009, Music for Development has used the transformative power of music to uplift underprivileged children in Bangladesh — beginning as a UNDP-funded project and growing into a movement.",
+      "cta": "Discover MFD"
+    }
+  },
+  "hero": {
+    "title": "Shurer Dhara",
+    "tagline": "Discover the timeless art of classical Indian vocal music",
+    "cta": "Begin Your Journey"
+  },
+  "about": {
+    "title": "About Shurer Dhara",
+    "body": "Shurer Dhara is an initiative by a dedicated vocal artist to nurture the next generation of singers. Rooted in the classical traditions of Bangla and Hindustani music, we offer a soulful and structured path for students at all levels — from beginners discovering their voice to advanced learners refining their craft.",
+    "mission": "Our Mission",
+    "missionBody": "To keep the living tradition of melodic art flowing across generations, blending the classical and the contemporary in a warm, encouraging environment."
+  },
+  "courses": {
+    "title": "Our Courses",
+    "subtitle": "A path for every voice",
+    "beginner": {
+      "title": "Foundation",
+      "desc": "Breathing, posture, basic sur and lay — the building blocks of vocal music."
+    },
+    "intermediate": {
+      "title": "Exploration",
+      "desc": "Raga introduction, tala, and expressive techniques for developing singers."
+    },
+    "advanced": {
+      "title": "Mastery",
+      "desc": "Khayal, thumri, and performance preparation for accomplished vocalists."
+    }
+  },
+  "pages": {
+    "schools": {
+      "subtitle": "Four Continents, One Tradition",
+      "title": "Schools of Music",
+      "intro": "What began as a single classroom in Dhaka has grown into a global network of four schools — each rooted in the same tradition, each adapting to its cultural landscape. Shurer Dhara carries the melody of Rabindrasangeet and Bengali performing arts to every corner of the world.",
+      "schools": [
+        {
+          "country": "India",
+          "city": "Kolkata",
+          "flag": "🇮🇳",
+          "description": "The birthplace of the tradition. Shurer Dhara's Kolkata chapter is rooted in the spiritual heartland of Rabindrasangeet, offering rigorous training in classical Bengali vocal music and Tagore's compositions.",
+          "address": "Kolkata, West Bengal, India",
+          "image": "https://images.unsplash.com/photo-1587474260584-136574528ed5?w=900&q=80",
+          "founded": "Est. 1995"
+        },
+        {
+          "country": "Bangladesh",
+          "city": "Dhaka",
+          "flag": "🇧🇩",
+          "description": "The main centre of Shurer Dhara, based in Dhaka. Founded by Prof. (Dr.) Rezwana Choudhury Bannya, this school is also home to Music for Development and serves hundreds of students each year.",
+          "address": "Dhaka, Bangladesh",
+          "image": "https://images.unsplash.com/photo-1553861879-94a39045c9a0?w=900&q=80",
+          "founded": "Est. 1990"
+        },
+        {
+          "country": "United States",
+          "city": "New York",
+          "flag": "🇺🇸",
+          "description": "Shurer Dhara's North American presence extends to the vibrant South Asian diaspora community in New York. Monthly workshops, performance events, and regular classes bridge East and West through music.",
+          "address": "New York, NY, United States",
+          "image": "https://images.unsplash.com/photo-1534430480872-3498386e7856?w=900&q=80",
+          "founded": "Est. 2005"
+        },
+        {
+          "country": "Canada",
+          "city": "Toronto",
+          "flag": "🇨🇦",
+          "description": "Canada's growing Bengali community found a musical home in Toronto. Shurer Dhara Canada runs classes for all ages and regularly participates in multicultural festivals across Ontario.",
+          "address": "Toronto, Ontario, Canada",
+          "image": "https://images.unsplash.com/photo-1517070208541-6ddc4d3efbcb?w=900&q=80",
+          "founded": "Est. 2008"
+        }
+      ]
+    },
+    "professor": {
+      "name": "Prof. (Dr.) Rezwana Choudhury Bannya",
+      "tagline": "Vocalist. Educator. Cultural Ambassador. Project Leader. For over three decades, Prof. (Dr.) Rezwana Choudhury Bannya has carried the living tradition of Rabindrasangeet across continents and communities.",
+      "quote": "Music means happiness and love. With love and your support we can change the lives of underprivileged children of Bangladesh.",
+      "quoteCite": "— Rezwana Choudhury Bannya",
+      "aboutLabel": "About",
+      "aboutTitle": "A Life Devoted to Music",
+      "bio1": "Prof. (Dr.) Rezwana Choudhury Bannya is one of the most celebrated vocalists of Rabindrasangeet in Bangladesh. A graduate of Visva-Bharati University in Shantiniketan, West Bengal — the institution founded by Rabindranath Tagore himself — she absorbed the music's deepest traditions at their source.",
+      "bio2": "Returning to Bangladesh, she founded Shurer Dhara — a school that became the country's foremost institution for Rabindrasangeet and Bengali performing arts. Under her leadership, the school has trained thousands of students and produced generations of accomplished performers.",
+      "bio3": "In 2009, driven by a belief that music is a universal right, she launched Music for Development — using the power of song, dance, and drama to transform the lives of underprivileged children across Dhaka's slum communities.",
+      "legacyLabel": "Legacy",
+      "legacyTitle": "Milestones",
+      "ctaTitle": "Inspired by the music?",
+      "ctaSubtitle": "Learn from the tradition Prof. Bannya has dedicated her life to preserving.",
+      "findSchool": "Find a School",
+      "mfdLink": "Music for Development",
+      "achievements": [
+        { "year": "1990", "title": "Founded Shurer Dhara", "desc": "Established the premier institution for Rabindrasangeet and Bengali performing arts in Dhaka, Bangladesh." },
+        { "year": "2009", "title": "Music for Development", "desc": "Launched MFD with UNDP funding — bringing music education to underprivileged children in the slums of Dhaka." },
+        { "year": "2005", "title": "International Expansion", "desc": "Extended Shurer Dhara's reach to North America, establishing connections with the Bengali diaspora in the US and Canada." },
+        { "year": "Ongoing", "title": "Global Performances", "desc": "Represented Bangladesh at prestigious cultural events across Asia, Europe, and the Americas — performing Tagore's music to international audiences." },
+        { "year": "Academic", "title": "PhD in Music", "desc": "Earned a doctorate in music, combining rigorous academic scholarship with her decades of artistic practice." },
+        { "year": "Cultural", "title": "UNESCO Recognition", "desc": "Recognized internationally for her contribution to preserving and promoting Bengali intangible cultural heritage through music." }
+      ]
+    },
+    "mfd": {
+      "initLabel": "An Initiative of Shurer Dhara",
+      "title": "Music for Development",
+      "tagline": "Changing lives through music. Since 2009, MFD has worked at the intersection of art and social development — proving that a song can open doors that nothing else can.",
+      "visitBtn": "Visit MFD Website →",
+      "meetProfBtn": "Meet Prof. Bannya",
+      "quote": "Music means happiness and love. With love and your support we can change the lives of underprivileged children of Bangladesh.",
+      "quoteCite": "— Rezwana Choudhury Bannya, Project Leader",
+      "storyLabel": "Our Story",
+      "storyTitle": "Born from a belief that music belongs to everyone",
+      "story1": "Music for Development (MFD) started in 2009 as a project of Shurer Dhara, a premier college for Rabindrasangeet and Bengali performing arts based in Dhaka. It began with a vision to improve the lives of children from the slum areas of Dhaka through music education. In its first year, MFD was funded by the United Nations Development Programme (UNDP).",
+      "story2": "What makes MFD unique is its holistic approach. Music is the entry point — but the goal is to grow well-rounded, empowered individuals. Students learn to sing, dance, and perform, and they also receive academic tutoring, vocational skills, and a community that believes in their future.",
+      "story3": "The children of MFD come from some of Dhaka's most under-resourced communities. Many arrive without access to formal education. Through MFD, they find their voice — literally and figuratively.",
+      "pillarsLabel": "What We Do",
+      "pillarsTitle": "Four Pillars of Development",
+      "historyLabel": "History",
+      "historyTitle": "Our Journey",
+      "ctaTitle": "Be part of the story",
+      "ctaSubtitle": "Visit the official Music for Development website to learn more, read student stories, and find out how you can support this work.",
+      "ctaBtn": "Visit musicfordevelopment.net →",
+      "pillars": [
+        { "icon": "🎵", "title": "Music Education", "desc": "Students receive structured training in singing, dancing, acting, and reciting — arts woven into the fabric of Bengali culture." },
+        { "icon": "📚", "title": "Academic Support", "desc": "Beyond music, MFD provides extra tutoring in mathematics, Bengali, English, and coding to help children succeed in school." },
+        { "icon": "🛠️", "title": "Vocational Training", "desc": "Older students receive practical skills to build a sustainable livelihood — ensuring music is the start, not the ceiling, of their potential." },
+        { "icon": "🌟", "title": "Community & Performance", "desc": "Regular showcases and public performances build confidence and give families a visible symbol of pride and progress." }
+      ],
+      "timeline": [
+        { "year": "2009", "event": "MFD founded as a project of Shurer Dhara, Dhaka. Initial funding from the United Nations Development Programme (UNDP)." },
+        { "year": "2010", "event": "First public performance by MFD children at a national cultural event in Dhaka." },
+        { "year": "2013", "event": "Expanded to additional slum communities in Dhaka's outskirts, reaching over 200 children." },
+        { "year": "2016", "event": "Introduced coding and vocational training alongside music to broaden children's futures." },
+        { "year": "2020", "event": "Adapted programming during the pandemic — delivering mentorship and support to keep students connected." },
+        { "year": "2024", "event": "Over 1,000 children have passed through the MFD programme since its inception." }
+      ]
+    }
+  },
+  "contact": {
+    "title": "Connect With Us",
+    "subtitle": "Start your musical journey today",
+    "email": "Email",
+    "phone": "Phone",
+    "address": "Address",
+    "form": {
+      "name": "Your Name",
+      "email": "Your Email",
+      "message": "Your Message",
+      "send": "Send Message"
+    }
+  },
+  "footer": {
+    "tagline": "Keeping the flow of melody alive.",
+    "rights": "All rights reserved.",
+    "links": {
+      "schools": "Schools",
+      "professor": "Professor",
+      "mfd": "Music for Development",
+      "contact": "Contact"
+    }
+  },
+  "lang": {
+    "en": "English",
+    "bn": "বাংলা"
+  }
+}
