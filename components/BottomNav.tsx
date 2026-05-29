@@ -2,7 +2,7 @@
 
 import { useState, useEffect, useRef } from "react";
 import Image from "next/image";
-import Link from "next/link";
+import TransitionLink from "@/components/TransitionLink";
 import { usePathname } from "next/navigation";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars, faXmark } from "@fortawesome/free-solid-svg-icons";
@@ -23,7 +23,7 @@ export default function BottomNav({
   const pathname = usePathname();
 
   const getActive = (): NavKey => {
-    if (pathname.endsWith("/professor")) return "professor";
+    if (pathname.endsWith("/bannya")) return "professor";
     if (pathname.endsWith("/schools")) return "schools";
     if (pathname.endsWith("/mfd")) return "mfd";
     return "home";
@@ -34,7 +34,7 @@ export default function BottomNav({
   const navItems: { key: NavKey; href: string }[] = [
     { key: "home", href: `/${lang}` },
     { key: "schools", href: `/${lang}/schools` },
-    { key: "professor", href: `/${lang}/professor` },
+    { key: "professor", href: `/${lang}/bannya` },
     { key: "mfd", href: `/${lang}/mfd` },
   ];
 
@@ -79,7 +79,7 @@ export default function BottomNav({
           </p>
           <nav className="flex flex-col gap-1 mb-8">
             {navItems.map(({ key, href }) => (
-              <Link
+              <TransitionLink
                 key={key}
                 href={href}
                 onClick={() => setOpen(false)}
@@ -89,14 +89,14 @@ export default function BottomNav({
                 }`}
               >
                 {labels[key]}
-              </Link>
+              </TransitionLink>
             ))}
           </nav>
           <a
             href="#contact"
             onClick={() => setOpen(false)}
             style={{ transition: `background 350ms ${EASE}` }}
-            className="flex items-center justify-center gap-2 w-full py-3.5 bg-crimson/10 hover:bg-crimson/20 text-crimson rounded-xl text-xs font-semibold  uppercase"
+            className="flex items-center justify-center gap-2 w-full py-3.5 bg-crimson/10 hover:bg-crimson/20 text-crimson rounded-full text-xs font-semibold  uppercase"
           >
             ↳ {labels.contact}
           </a>
@@ -105,7 +105,11 @@ export default function BottomNav({
 
       {/* Pill */}
       <div
-        style={{ transition: `all 600ms ${EASE}`, willChange: "width" }}
+        style={{
+          transition: `width 600ms ${EASE}`,
+          width: open ? "56px" : "192px",
+          willChange: "width",
+        }}
         className="relative flex items-center rounded-full bg-parchment/80 backdrop-blur-2xl border border-white/60 shadow-2xl shadow-charcoal/10 px-2 py-2"
       >
         {/* Logo */}
@@ -141,8 +145,7 @@ export default function BottomNav({
             whiteSpace: "nowrap",
             display: "block",
           }}
-          className="text-charcoal/70 text-xs font-semibold  uppercase"
-        >
+          className="flex-1 text-charcoal/70 text-xs font-semibold uppercase text-center">
           {labels[activeKey]}
         </span>
 
@@ -150,8 +153,8 @@ export default function BottomNav({
         <button
           onClick={() => setOpen((v) => !v)}
           style={{
-            marginLeft: open ? "0px" : "8px",
-            transition: `margin 600ms ${EASE}, background 350ms ${EASE}`,
+            marginLeft: "auto",
+            transition: `background 350ms ${EASE}`,
             background: open ? "transparent" : undefined,
           }}
           className={`flex items-center justify-center w-10 h-10 rounded-full ${

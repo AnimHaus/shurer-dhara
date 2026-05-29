@@ -1,5 +1,8 @@
+"use client";
+
 import Image from "next/image";
-import Link from "next/link";
+import TransitionLink from "@/components/TransitionLink";
+import { usePathname } from "next/navigation";
 import type { Locale } from "@/lib/locales";
 import type { Dictionary } from "@/app/[lang]/dictionaries";
 
@@ -10,8 +13,17 @@ export default function SiteFooter({
   footer: Dictionary["footer"];
   lang: Locale;
 }) {
+  const pathname = usePathname();
+  const isDark = !pathname.endsWith("/bannya");
+
+  const bg = isDark ? "bg-charcoal" : "bg-parchment";
+  const border = isDark ? "border-parchment/10" : "border-charcoal/10";
+  const textMuted = isDark ? "text-parchment/50" : "text-charcoal/50";
+  const textHover = isDark ? "hover:text-parchment" : "hover:text-charcoal";
+  const textCopyright = isDark ? "text-parchment/30" : "text-charcoal/30";
+
   return (
-    <footer className="relative z-10 py-12 px-8 border-t border-charcoal/10 bg-parchment">
+    <footer className={`relative z-10 py-12 px-8 border-t ${border} ${bg}`}>
       <div className="max-w-5xl mx-auto">
         <div className="flex flex-col md:flex-row items-start justify-between gap-10">
           <div className="flex flex-col gap-4">
@@ -22,46 +34,46 @@ export default function SiteFooter({
               height={32}
               className="h-8 w-auto object-contain opacity-70"
             />
-            <p className="text-charcoal/50 text-sm max-w-xs">{footer.tagline}</p>
+            <p className={`${textMuted} text-sm max-w-xs`}>{footer.tagline}</p>
           </div>
 
           <nav className="flex flex-col gap-3">
-            <Link
+            <TransitionLink
               href={`/${lang}/schools`}
-              className="text-xs uppercase text-charcoal/50 hover:text-charcoal transition-colors duration-300"
+              className={`text-xs uppercase ${textMuted} ${textHover} transition-colors duration-300`}
             >
               {footer.links.schools}
-            </Link>
-            <Link
-              href={`/${lang}/professor`}
-              className="text-xs uppercase text-charcoal/50 hover:text-charcoal transition-colors duration-300"
+            </TransitionLink>
+            <TransitionLink
+              href={`/${lang}/bannya`}
+              className={`text-xs uppercase ${textMuted} ${textHover} transition-colors duration-300`}
             >
               {footer.links.professor}
-            </Link>
-            <Link
+            </TransitionLink>
+            <TransitionLink
               href={`/${lang}/mfd`}
-              className="text-xs uppercase text-charcoal/50 hover:text-charcoal transition-colors duration-300"
+              className={`text-xs uppercase ${textMuted} ${textHover} transition-colors duration-300`}
             >
               {footer.links.mfd}
-            </Link>
+            </TransitionLink>
             <a
               href="#contact"
-              className="text-xs uppercase  text-charcoal/50 hover:text-charcoal transition-colors duration-300"
+              className={`text-xs uppercase ${textMuted} ${textHover} transition-colors duration-300`}
             >
               {footer.links.contact}
             </a>
           </nav>
         </div>
 
-        <div className="mt-10 pt-6 border-t border-charcoal/10 flex items-center justify-between">
-          <p className="text-charcoal/30 text-xs">
+        <div className={`mt-10 pt-6 border-t ${border} flex items-center justify-between`}>
+          <p className={`${textCopyright} text-xs`}>
             © {new Date().getFullYear()} {footer.rights}
           </p>
           <a
             href="https://www.musicfordevelopment.net"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-xs text-crimson/60 hover:text-crimson transition-colors duration-300  uppercase"
+            className="text-xs text-crimson/60 hover:text-crimson transition-colors duration-300 uppercase"
           >
             musicfordevelopment.net
           </a>

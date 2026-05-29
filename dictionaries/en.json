@@ -17,7 +17,7 @@
     },
     "professor": {
       "title": "Prof. (Dr.) Rezwana Choudhury Bannya",
-      "description": "Discover the vision and legacy of the master musician and cultural ambassador who founded Shurer Dhara and Music for Development, bringing Bengali classical music to the world.",
+      "description": "Padma Shri laureate, Independence Day Award recipient, and one of the world's foremost voices in Rabindrasangeet — founder of Shurer Dhara and Music for Development.",
       "cta": "Meet the Professor"
     },
     "mfd": {
@@ -29,14 +29,14 @@
   },
   "hero": {
     "title": "Shurer Dhara",
-    "tagline": "Discover the timeless art of classical Indian vocal music",
+    "tagline": "The living tradition of Tagore's music, carried across continents by Prof. (Dr.) Rezwana Choudhury Bannya",
     "cta": "Begin Your Journey"
   },
   "about": {
     "title": "About Shurer Dhara",
-    "body": "Shurer Dhara is an initiative by a dedicated vocal artist to nurture the next generation of singers. Rooted in the classical traditions of Bangla and Hindustani music, we offer a soulful and structured path for students at all levels — from beginners discovering their voice to advanced learners refining their craft.",
+    "body": "Founded in 1992 by Prof. (Dr.) Rezwana Choudhury Bannya at the instruction of her guru Kanika Bandopadhyay, Shurer Dhara is Bangladesh's foremost institution for Rabindrasangeet and Bengali performing arts. What began as a single classroom in Dhaka has grown into a global network with branches in India, the United States, and Canada — training thousands of students and keeping the gharana of Tagore's music alive across generations.",
     "mission": "Our Mission",
-    "missionBody": "To keep the living tradition of melodic art flowing across generations, blending the classical and the contemporary in a warm, encouraging environment."
+    "missionBody": "To carry the living tradition of Rabindrasangeet across generations and continents — the specific style handed down from Shailajaranjan Majumdar through Kanika Bandopadhyay to Prof. Bannya, and now to students around the world."
   },
   "courses": {
     "title": "Our Courses",
@@ -100,27 +100,76 @@
     },
     "professor": {
       "name": "Prof. (Dr.) Rezwana Choudhury Bannya",
-      "tagline": "Vocalist. Educator. Cultural Ambassador. Project Leader. For over three decades, Prof. (Dr.) Rezwana Choudhury Bannya has carried the living tradition of Rabindrasangeet across continents and communities.",
+      "tagline": "Vocalist. Educator. Cultural Ambassador. Padma Shri Laureate. For over four decades, Prof. (Dr.) Rezwana Choudhury Bannya has carried the living tradition of Rabindrasangeet across continents and generations.",
       "quote": "Music means happiness and love. With love and your support we can change the lives of underprivileged children of Bangladesh.",
       "quoteCite": "— Rezwana Choudhury Bannya",
       "aboutLabel": "About",
       "aboutTitle": "A Life Devoted to Music",
-      "bio1": "Prof. (Dr.) Rezwana Choudhury Bannya is one of the most celebrated vocalists of Rabindrasangeet in Bangladesh. A graduate of Visva-Bharati University in Shantiniketan, West Bengal — the institution founded by Rabindranath Tagore himself — she absorbed the music's deepest traditions at their source.",
-      "bio2": "Returning to Bangladesh, she founded Shurer Dhara — a school that became the country's foremost institution for Rabindrasangeet and Bengali performing arts. Under her leadership, the school has trained thousands of students and produced generations of accomplished performers.",
-      "bio3": "In 2009, driven by a belief that music is a universal right, she launched Music for Development — using the power of song, dance, and drama to transform the lives of underprivileged children across Dhaka's slum communities.",
+      "bio1": "Born in Rangpur to a family steeped in Rabindrik culture — her father Mazher Khan a civil servant, her mother Esmat Khan a teacher, both devoted admirers of Tagore — Rezwana grew up as 'Bannya', a nickname drawn from the heroine of Tagore's beloved novel Shesher Kabita. She trained at Chhayanat, Dhaka, before winning an ICCR scholarship that took her to Visva-Bharati University, Santiniketan, in 1975. There she studied under the greatest living masters of Rabindrasangeet — Shailajaranjan Majumdar, Santidev Ghosh — and most intimately under Kanika Bandopadhyay (Mohordi), who became her mentor, guru, and lifelong confidante.",
+      "bio2": "In 1992, returning to Dhaka with the confidence of a fully realised artist, and at Mohordi's direct instruction, Bannya founded Shurer Dhara. What began as a single classroom grew into Bangladesh's foremost institution for Rabindrasangeet and Bengali performing arts — with branches in India, the United States, and Canada, training thousands of students across generations. She is today Professor and Chairperson of the Department of Dance at Dhaka University, and an external PhD examiner at Rabindra Bharati University, India.",
+      "bio3": "Over four decades she has recorded more than 900 songs released across Germany, the United States, India, and Bangladesh — including over 100 albums, and was HMV's best-selling artist from 1999 to 2005. She has performed before heads of state, at UNESCO in Paris, at Symphony Space on Broadway in New York, and across Asia, Europe, and the Americas as a National Artist of Bangladesh. In 2009 she launched Music for Development, bringing music to underprivileged children in Dhaka's slum communities. In 2016 she received Bangladesh's highest civilian honour — the Independence Day Award (Sadhinota Podok). In 2024, the Government of India awarded her the Padma Shri — one of India's highest civilian honours.",
       "legacyLabel": "Legacy",
       "legacyTitle": "Milestones",
+      "shrutiLabel": "Landmark Project",
+      "shrutiTitle": "Shrutigitabitan",
+      "shrutiBody": "On Tagore's 150th birth anniversary, Shurer Dhara launched Shrutigitabitan — a complete musical recording of all 2,233 songs in Tagore's Gitabitan. Performed by nearly 400 Bangladeshi-born singers, the album was launched on 29th December 2011 by Nobel Laureate Amartya Sen and Prime Minister Sheikh Hasina — a historic moment for Bengali music.",
+      "shrutiStatSongs": "Songs of Gitabitan",
+      "shrutiStatSingers": "Singers",
+      "shrutiStat400": "~400",
+      "shrutiStat2011": "2011",
+      "shrutiStatAmartyaSen": "Amartya Sen",
+      "shrutiStatLaunched": "Launched",
+      "shrutiStatInauguratedBy": "Inaugurated by",
+      "awardsLabel": "Recognition",
+      "awardsTitle": "Honours & Awards",
+      "majorAwardBadge": "Major Award",
+      "awards": [
+        { "year": "2024", "title": "Padma Shri", "body": "Conferred by the Government of India — one of India's highest civilian honours — for lifetime dedication to Rabindrasangeet.", "highlight": true },
+        { "year": "2021", "title": "PhD, Dhaka University", "body": "Completed doctoral research on Rabindra Sangeet at the University of Dhaka.", "highlight": false },
+        { "year": "2019", "title": "Honorary Doctorate of Arts", "body": "Asian University for Women. Received from Chancellor Mrs. Cherie Blair and Vice Chancellor Prof. Nirmala Rao, OBE.", "highlight": false },
+        { "year": "2017", "title": "Bangabhusan & Sangeet Mahasanman", "body": "West Bengal's highest civilian honour and Sangeet Mahasanman — both awarded by the Government of West Bengal.", "highlight": true },
+        { "year": "2017", "title": "Firoza Begum Golden Award", "body": "Awarded in Bangladesh in honour of the legendary Nazrul singer Firoza Begum.", "highlight": false },
+        { "year": "2016", "title": "Independence Day Award (Sadhinota Podok)", "body": "Bangladesh's highest civilian honour, awarded by the President in recognition of lifelong contribution to music and culture.", "highlight": true },
+        { "year": "2015", "title": "Sri Chinmoy Culture-Light Award", "body": "Presented in the United States for her contribution to the promotion of Bengali culture internationally.", "highlight": false },
+        { "year": "2015", "title": "Life Time Achievement Award (BTV & TRAB)", "body": "Dual lifetime achievement recognition from Bangladesh Television (BTV) and the Television Reporters Association of Bangladesh.", "highlight": false },
+        { "year": "2014", "title": "Rabindra Puroskar", "body": "Bangla Academy, Bangladesh — for outstanding contribution to Rabindrasangeet.", "highlight": false },
+        { "year": "2013", "title": "Sangeet Sanman", "body": "Ministry of Culture, Government of West Bengal — for exceptional contribution to Indian classical music.", "highlight": false },
+        { "year": "2008", "title": "Life Time Achievement Award", "body": "Channel i Television, Bangladesh.", "highlight": false },
+        { "year": "2002–2003", "title": "Ananda Sangeet Award", "body": "Ananda Bazar Group, India — twice awarded for the albums \"Mor Dorodiya\" and \"Matir Dak\".", "highlight": false },
+        { "year": "1994", "title": "Bangladesh Film Journalists Association Award", "body": "Recognised for her contributions to playback singing in Bengali cinema.", "highlight": false },
+        { "year": "1992", "title": "Anandadhara Gold Medal", "body": "Bangladesh.", "highlight": false },
+        { "year": "1987", "title": "Jaye Jaye Din Award", "body": "Bangladesh — one of her earliest national recognitions.", "highlight": false }
+      ],
+      "discographyLabel": "Recordings",
+      "discographyTitle": "Over 900 Songs",
+      "discographyBody": "Recorded across Germany, the United States, India, and Bangladesh — including over 100 albums with HMV/Saregama, Bengal Foundation, Times of India, Alap, Sagarika, and more. HMV's best-selling artist from 1999 to 2005.",
+      "globalLabel": "World Stage",
+      "globalTitle": "A Voice Without Borders",
+      "globalBody": "As a National Artist of Bangladesh, Bannya has performed across four continents — at UNESCO in Paris, the United Nations in New York, Symphony Space on Broadway, Queen Elizabeth Hall in London, and before heads of state in Delhi, Moscow, Tokyo, and beyond.",
+      "globalStats": [
+        { "value": "30+", "label": "Countries" },
+        { "value": "5", "label": "Continents" },
+        { "value": "UNESCO", "label": "Paris Concerts" },
+        { "value": "UN", "label": "New York Stage" }
+      ],
+      "globalRegions": [
+        { "label": "South Asia", "venues": ["Dhaka, Bangladesh", "Delhi, Mumbai, Kolkata (India)", "Sri Lanka", "Singapore", "Thailand", "Abu Dhabi"] },
+        { "label": "United Kingdom", "venues": ["Queen Elizabeth Hall, London", "Logan Hall, London", "Birmingham", "Manchester", "Leeds", "Brighton", "Edinburgh", "Glasgow"] },
+        { "label": "Americas", "venues": ["Symphony Space Broadway, New York", "United Nations, New York", "Washington DC", "Toronto", "Montreal", "Ottawa"] },
+        { "label": "Europe", "venues": ["UNESCO, Paris", "Germany", "Switzerland", "Belgium", "Netherlands (Amsterdam 1994)", "Russia", "Iceland (University of the Arts, 2018)"] },
+        { "label": "Media & Broadcasts", "venues": ["BBC Television London", "BBC Radio London", "Doordarshan India", "ATN Bangla", "Channel i", "NHK Japan"] }
+      ],
       "ctaTitle": "Inspired by the music?",
       "ctaSubtitle": "Learn from the tradition Prof. Bannya has dedicated her life to preserving.",
       "findSchool": "Find a School",
       "mfdLink": "Music for Development",
       "achievements": [
-        { "year": "1990", "title": "Founded Shurer Dhara", "desc": "Established the premier institution for Rabindrasangeet and Bengali performing arts in Dhaka, Bangladesh." },
-        { "year": "2009", "title": "Music for Development", "desc": "Launched MFD with UNDP funding — bringing music education to underprivileged children in the slums of Dhaka." },
-        { "year": "2005", "title": "International Expansion", "desc": "Extended Shurer Dhara's reach to North America, establishing connections with the Bengali diaspora in the US and Canada." },
-        { "year": "Ongoing", "title": "Global Performances", "desc": "Represented Bangladesh at prestigious cultural events across Asia, Europe, and the Americas — performing Tagore's music to international audiences." },
-        { "year": "Academic", "title": "PhD in Music", "desc": "Earned a doctorate in music, combining rigorous academic scholarship with her decades of artistic practice." },
-        { "year": "Cultural", "title": "UNESCO Recognition", "desc": "Recognized internationally for her contribution to preserving and promoting Bengali intangible cultural heritage through music." }
+        { "year": "1992", "title": "Founded Shurer Dhara", "desc": "At the instruction of her guru Kanika Bandopadhyay, established Shurer Dhara in Dhaka — Bangladesh's premier institution for Rabindrasangeet and Bengali performing arts." },
+        { "year": "2009", "title": "Music for Development", "desc": "Launched MFD with UNDP funding — bringing music, academic tutoring, and vocational skills to underprivileged children in Dhaka's slum communities." },
+        { "year": "2011", "title": "Shrutigitabitan", "desc": "Curated a complete musical recording of Tagore's Gitabitan featuring nearly 400 Bangladeshi singers, launched by Nobel Laureate Amartya Sen and Prime Minister Sheikh Hasina." },
+        { "year": "2016", "title": "Independence Day Award", "desc": "Received Bangladesh's highest civilian honour — the Sadhinota Podok (Independence Day Award) — in recognition of her lifelong contribution to music and culture." },
+        { "year": "2017", "title": "Bangabhusan Award", "desc": "Awarded the Bangabhusan — West Bengal's highest civilian honour — by the Government of West Bengal for her extraordinary contribution to Bengali music and culture." },
+        { "year": "2024", "title": "Padma Shri", "desc": "Conferred the Padma Shri by the Government of India — one of India's highest civilian honours — in recognition of her lifelong dedication to Rabindrasangeet and Bengali cultural heritage." }
       ]
     },
     "mfd": {
@@ -143,6 +192,32 @@
       "ctaTitle": "Be part of the story",
       "ctaSubtitle": "Visit the official Music for Development website to learn more, read student stories, and find out how you can support this work.",
       "ctaBtn": "Visit musicfordevelopment.net →",
+      "rows": [
+        {
+          "label": "Our Story",
+          "title": "Our Story",
+          "body": "Music for Development (MFD) started in 2009 as a project of Shurer Dhara, a premier college for Rabindrasangeet and Bengali performing arts based in Dhaka. It began with a vision to improve the lives of the children from the slum areas of Dhaka through music education. In its first year, MFD was funded by the United Nations Development Programme (UNDP).",
+          "linkText": "Learn More →"
+        },
+        {
+          "label": "What We Do",
+          "title": "What We Do",
+          "body": "Our students are underprivileged children from different slum areas of Dhaka and its adjoining areas. Although music is our main focus we also give the children of MFD extra tutoring in mathematics, Bengali, English, coding and vocational training — helping these underprivileged children to grow up to be successful and happy citizens of Bangladesh.",
+          "linkText": "Learn More →"
+        },
+        {
+          "label": "Showcase",
+          "title": "Show Case of Events by Our Students",
+          "body": "Our students love singing, dancing, acting, reciting. Enjoy some photos of our students' performances.",
+          "linkText": "Learn More →"
+        },
+        {
+          "label": "Our Children",
+          "title": "Meet the MFD Children",
+          "body": "Read the inspiring stories of the MFD Children.",
+          "linkText": "Learn More →"
+        }
+      ],
       "pillars": [
         { "icon": "🎵", "title": "Music Education", "desc": "Students receive structured training in singing, dancing, acting, and reciting — arts woven into the fabric of Bengali culture." },
         { "icon": "📚", "title": "Academic Support", "desc": "Beyond music, MFD provides extra tutoring in mathematics, Bengali, English, and coding to help children succeed in school." },
@@ -173,7 +248,7 @@
     }
   },
   "footer": {
-    "tagline": "Keeping the flow of melody alive.",
+    "tagline": "Founded by Prof. (Dr.) Rezwana Choudhury Bannya. Keeping the flow of Tagore's melody alive.",
     "rights": "All rights reserved.",
     "links": {
       "schools": "Schools",

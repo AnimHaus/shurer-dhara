@@ -7,9 +7,10 @@ import { GeistSans } from "geist/font/sans";
 import { notFound } from "next/navigation";
 import { hasLocale, locales, getDictionary } from "./dictionaries";
 import LenisProvider from "@/components/LenisProvider";
+import PageTransitionProvider from "@/components/PageTransitionProvider";
 import SiteHeader from "@/components/SiteHeader";
 import SiteFooter from "@/components/SiteFooter";
-import BottomNav from "@/components/BottomNav";
+import WhatsAppFAB from "@/components/WhatsAppFAB";
 import type { Locale } from "@/lib/locales";
 import "@/app/globals.css";
 
@@ -58,21 +59,22 @@ export default async function LangLayout({
       `}
     >
       <body className="min-h-full flex flex-col antialiased bg-parchment text-charcoal">
+        <PageTransitionProvider>
         <LenisProvider>
-          <SiteHeader lang={lang as Locale} />
-          <main className="relative z-10 flex-1">{children}</main>
-          <SiteFooter footer={dict.footer} lang={lang as Locale} />
-          <BottomNav
-            lang={lang}
+          <SiteHeader
+            lang={lang as Locale}
             labels={{
               home: dict.nav.home,
               schools: dict.nav.schools,
               professor: dict.nav.professor,
               mfd: dict.nav.mfd,
-              contact: dict.nav.contact,
             }}
           />
+          <main className="relative z-10 flex-1">{children}</main>
+          <SiteFooter footer={dict.footer} lang={lang as Locale} />
+          <WhatsAppFAB />
         </LenisProvider>
+        </PageTransitionProvider>
       </body>
     </html>
   );

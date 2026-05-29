@@ -22,7 +22,7 @@ export default function ContactForm({ form }: { form: Dictionary["contact"]["for
       />
       <button
         type="submit"
-        className="w-full py-4 bg-crimson text-white font-semibold uppercase rounded-2xl hover:bg-crimson/90 transition-all duration-300 shadow-lg hover:shadow-crimson/30"
+        className="w-full py-4 bg-crimson text-white font-semibold uppercase rounded-full hover:bg-crimson/90 transition-all duration-300 shadow-lg hover:shadow-crimson/30"
       >
         {form.send}
       </button>

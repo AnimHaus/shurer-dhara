@@ -26,8 +26,15 @@ export default function LenisProvider({
 
     const rafId = requestAnimationFrame(raf);
 
+    // Re-calculate scroll limit whenever page content height changes (e.g. route transitions)
+    const resizeObserver = new ResizeObserver(() => {
+      lenis.resize();
+    });
+    resizeObserver.observe(document.body);
+
     return () => {
       cancelAnimationFrame(rafId);
+      resizeObserver.disconnect();
       lenis.destroy();
     };
   }, []);

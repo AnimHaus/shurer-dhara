@@ -2,6 +2,8 @@
 
 import { useRef } from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
+import WordReveal from "@/components/WordReveal";
+import RevealText from "@/components/RevealText";
 import type { Dictionary } from "@/app/[lang]/dictionaries";
 
 export default function HeroSection({ hero }: { hero: Dictionary["hero"] }) {
@@ -25,8 +27,8 @@ export default function HeroSection({ hero }: { hero: Dictionary["hero"] }) {
       >
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
-          src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=1920&q=80"
-          alt="Classical music performance"
+          src="https://commons.wikimedia.org/wiki/Special:FilePath/Evening_on_Tagore_-_Kolkata_2011-05-09_3084.JPG"
+          alt="Prof. Rezwana Choudhury Bannya performing at an Evening on Tagore event, Kolkata 2011"
           className="w-full h-full object-cover"
         />
       </motion.div>
@@ -37,38 +39,24 @@ export default function HeroSection({ hero }: { hero: Dictionary["hero"] }) {
       {/* Content */}
       <div className="relative z-10 h-full flex flex-col items-center justify-center text-center px-6">
 
-        <motion.h1
-          initial={{ opacity: 0, y: 40 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 1.1, delay: 0.35, ease: [0.22, 1, 0.36, 1] }}
-          className="font-display text-8xl md:text-[11rem] font-bold text-white leading-none mb-8 "
-        >
-          {hero.title}
-        </motion.h1>
+        <h1 className="font-display text-[3.5rem] sm:text-7xl md:text-[11rem] font-bold text-white leading-none mb-6 md:mb-8">
+            <WordReveal text={hero.title} onLoad delay={0.35} duration={1.1} />
+          </h1>
 
-        <motion.p
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.9, delay: 0.55, ease: [0.22, 1, 0.36, 1] }}
-          className="text-lg md:text-xl text-white/55 leading-relaxed mb-12 max-w-xl mx-auto font-light"
-        >
-          {hero.tagline}
-        </motion.p>
+        <RevealText onLoad delay={0.55} duration={0.9}>
+          <p className="text-base md:text-xl text-white/55 leading-relaxed mb-8 md:mb-12 max-w-xl mx-auto font-light">
+            {hero.tagline}
+          </p>
+        </RevealText>
 
-        <motion.a
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, delay: 0.7, ease: [0.22, 1, 0.36, 1] }}
-          href="#schools-preview"
-          className="inline-block px-10 py-4 border border-white/35 text-white text-xs font-semibold  uppercase hover:bg-white hover:text-charcoal transition-all duration-500"
-        >
-          {hero.cta}
-        </motion.a>
-      </div>
-
-      {/* Scroll indicator */}
-      <div className="absolute bottom-10 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 opacity-30">
-        <div className="w-px h-12 bg-white" />
+        <RevealText onLoad delay={0.7} duration={0.8}>
+          <a
+            href="#schools-preview"
+            className="inline-block px-10 py-4 border border-white/35 text-white text-xs font-semibold uppercase hover:bg-white hover:text-charcoal transition-all duration-500 rounded-full"
+          >
+            {hero.cta}
+          </a>
+        </RevealText>
       </div>
     </section>
   );

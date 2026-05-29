@@ -1,6 +1,7 @@
 import { notFound } from "next/navigation";
 import { getDictionary, hasLocale, type Locale } from "../dictionaries";
-import SchoolsPage from "@/components/sections/SchoolsPageContent";
+import SchoolsHero from "@/components/sections/SchoolsHero";
+import SchoolsGrid from "@/components/sections/SchoolsGrid";
 
 export default async function Schools({
   params,
@@ -8,5 +9,12 @@ export default async function Schools({
   const { lang } = await params;
   if (!hasLocale(lang)) notFound();
   const dict = await getDictionary(lang as Locale);
-  return <SchoolsPage lang={lang as Locale} dict={dict} />;
+  const p = dict.pages.schools;
+
+  return (
+    <div className="bg-charcoal text-white min-h-screen">
+      <SchoolsHero p={p} />
+      <SchoolsGrid p={p} />
+    </div>
+  );
 }
