@@ -90,7 +90,7 @@ export default function SiteHeader({ lang, labels }: SiteHeaderProps) {
               <TransitionLink
                 key={key}
                 href={href}
-                className={`text-xs font-semibold uppercase tracking-widest transition-all duration-300 ${
+                className={`text-xs font-semibold uppercase transition-all duration-300 ${
                   activeKey === key
                     ? "text-crimson"
                     : "text-white opacity-55 hover:opacity-100"
@@ -157,7 +157,7 @@ export default function SiteHeader({ lang, labels }: SiteHeaderProps) {
               <TransitionLink
                 href={href}
                 onClick={() => setMenuOpen(false)}
-                className={`text-2xl font-semibold uppercase tracking-widest transition-opacity duration-300 ${
+                className={`text-2xl font-semibold uppercase transition-opacity duration-300 ${
                   activeKey === key
                     ? "text-crimson opacity-100"
                     : "text-white opacity-55 hover:opacity-100"

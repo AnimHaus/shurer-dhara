@@ -1,5 +1,6 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
+import ViewTracker from "@/components/ViewTracker";
 
 interface NewsItem {
   id: string;
@@ -61,6 +62,7 @@ export default async function NewsArticlePage({
 
   return (
     <div className="min-h-screen bg-charcoal text-white">
+      <ViewTracker articleId={article.id} />
       {/* Hero image or gradient header */}
       <div className="relative w-full h-[50vh] min-h-64 overflow-hidden">
         {article.imageUrl ? (
