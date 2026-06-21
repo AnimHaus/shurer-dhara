@@ -24,7 +24,7 @@ export default async function HomePage({
         description={dict.home.professor.description}
         href={`/${lang}/bannya`}
         cta={dict.home.professor.cta}
-        image="https://commons.wikimedia.org/wiki/Special:FilePath/Rezwana_Choudhury_Bannya_New_Jersey_2.jpg"
+        image="https://cdn.shurerdhara.com/Rezwana_Choudhury_Bannya_New_Jersey_2.jpg"
         split={true}
       />
 
@@ -44,7 +44,7 @@ export default async function HomePage({
           description={dict.home.mfd.description}
           href={`/${lang}/mfd`}
           cta={dict.home.mfd.cta}
-          image="/MFD.webp"
+          image="https://cdn.shurerdhara.com/MFD.webp"
         />
       </div>
 

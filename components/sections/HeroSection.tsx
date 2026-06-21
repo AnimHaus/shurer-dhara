@@ -27,7 +27,7 @@ export default function HeroSection({ hero }: { hero: Dictionary["hero"] }) {
       >
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
-          src="https://commons.wikimedia.org/wiki/Special:FilePath/Evening_on_Tagore_-_Kolkata_2011-05-09_3084.JPG"
+          src="https://cdn.shurerdhara.com/Evening_on_Tagore_-_Kolkata_2011-05-09_3084.avif"
           alt="Prof. Rezwana Choudhury Bannya performing at an Evening on Tagore event, Kolkata 2011"
           className="w-full h-full object-cover"
         />

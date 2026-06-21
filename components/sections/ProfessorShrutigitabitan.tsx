@@ -21,7 +21,7 @@ export default function ProfessorShrutigitabitan({ p }: { p: ProfDict }) {
         >
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
-            src="https://commons.wikimedia.org/wiki/Special:FilePath/Ambassador_Earl_Miller_at_Dhaka_University_on_EMK_Day_(50325334878).jpg"
+            src="https://cdn.shurerdhara.com/Ambassador_Earl_Miller_at_Dhaka_University_on_EMK_Day_(50325334878).avif"
             alt="Prof. Bannya at Dhaka University"
             className="w-full aspect-[4/3] object-cover rounded-2xl"
           />

@@ -16,7 +16,7 @@ export default function MFDHero({ lang, p }: { lang: Locale; p: MFDDict }) {
       <section className="relative min-h-screen overflow-hidden flex items-center">
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
-          src="/MFD.webp"
+          src="https://cdn.shurerdhara.com/MFD.webp"
           alt="Music for Development"
           className="absolute inset-0 w-full h-full object-cover opacity-35"
         />

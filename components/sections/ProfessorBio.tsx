@@ -38,14 +38,14 @@ export default function ProfessorBio({ p }: { p: ProfDict }) {
       >
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
-          src="https://commons.wikimedia.org/wiki/Special:FilePath/Rezwana_Choudhury_Bannya_New_Jersey_2_(cropped).jpg"
+          src="https://cdn.shurerdhara.com/Rezwana_Choudhury_Bannya_New_Jersey_2_(cropped).jpg"
           alt="Prof. (Dr.) Rezwana Choudhury Bannya"
           className="w-full aspect-[4/5] object-cover object-top"
         />
         <div className="absolute -bottom-6 -left-6 w-1/2 aspect-square">
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
-            src="https://ddnews.gov.in/wp-content/uploads/2024/04/bangla-padma-2.jpeg"
+            src="https://cdn.shurerdhara.com/bangla-padma-2.jpeg"
             alt="Rezwana Choudhury Bannya receiving Padma Shri Award 2024"
             className="w-full h-full object-cover object-left border-4 border-parchment"
           />

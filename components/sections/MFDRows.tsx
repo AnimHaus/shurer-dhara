@@ -6,10 +6,10 @@ import type { Dictionary } from "@/app/[lang]/dictionaries";
 type MFDDict = Dictionary["pages"]["mfd"];
 
 const rowImages = [
-  { src: "/our_story.webp", alt: "Our Story", href: "https://www.musicfordevelopment.net/our-story" },
-  { src: "/what_we_do.webp", alt: "What We Do", href: "https://www.musicfordevelopment.net/what-we-do" },
-  { src: "/show_case_events.webp", alt: "Showcase of Events", href: "https://www.musicfordevelopment.net/showcase-of-events" },
-  { src: "/meet_mfd.webp", alt: "Meet the MFD Children", href: "https://www.musicfordevelopment.net/meet-the-mfd-children" },
+  { src: "https://cdn.shurerdhara.com/our_story.webp", alt: "Our Story", href: "https://www.musicfordevelopment.net/our-story" },
+  { src: "https://cdn.shurerdhara.com/what_we_do.webp", alt: "What We Do", href: "https://www.musicfordevelopment.net/what-we-do" },
+  { src: "https://cdn.shurerdhara.com/show_case_events.webp", alt: "Showcase of Events", href: "https://www.musicfordevelopment.net/showcase-of-events" },
+  { src: "https://cdn.shurerdhara.com/meet_mfd.webp", alt: "Meet the MFD Children", href: "https://www.musicfordevelopment.net/meet-the-mfd-children" },
 ];
 
 export default function MFDRows({ p }: { p: MFDDict }) {

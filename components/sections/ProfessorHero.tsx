@@ -14,7 +14,7 @@ export default function ProfessorHero({ p }: { p: ProfDict }) {
       <section className="relative min-h-screen overflow-hidden">
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
-          src="https://commons.wikimedia.org/wiki/Special:FilePath/Rezwana_Choudhury_Bannya.jpg"
+          src="https://cdn.shurerdhara.com/Rezwana_Choudhury_Bannya.avif"
           alt="Prof. (Dr.) Rezwana Choudhury Bannya"
           className="absolute inset-0 w-full h-full object-cover object-center"
         />
