@@ -1,6 +1,6 @@
 import { NextResponse } from "next/server";
 
-const DASHBOARD = process.env.BACKEND_API_URL ?? "http://localhost:8000";
+const DASHBOARD = process.env.NEXT_PUBLIC_BACKEND_API_URL ?? "http://localhost:8000";
 
 export async function GET() {
   try {

@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 import type { NewsItem } from "./NoticesSection";
 
 const API_BASE =
-  process.env.NEXT_PUBLIC_BASE_URL ?? "http://localhost:8000";
+  process.env.NEXT_PUBLIC_BACKEND_API_URL ?? "http://localhost:8000";
 
 const TAG_COLORS: Record<string, string> = {
   event: "bg-indigo-500/20 text-indigo-300 border-indigo-500/30",

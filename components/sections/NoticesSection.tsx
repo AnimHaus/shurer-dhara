@@ -16,9 +16,9 @@ export interface NewsItem {
 async function getNews(): Promise<NewsItem[]> {
   try {
     const baseUrl =
-      process.env.NEXT_PUBLIC_BASE_URL ??
+      process.env.NEXT_PUBLIC_BACKEND_API_URL ??
       (process.env.NODE_ENV === "production"
-        ? "https://api.shurerdhara.net"
+        ? "https://api.shurerdhara.com"
         : "http://localhost:8000");
     const res = await fetch(`${baseUrl}/api/news?active=true`, {
       next: { revalidate: 60 },

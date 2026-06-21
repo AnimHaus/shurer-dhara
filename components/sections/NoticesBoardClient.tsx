@@ -16,7 +16,7 @@ interface Notice {
 }
 
 const API_BASE =
-  process.env.NEXT_PUBLIC_BASE_URL ?? "http://localhost:8000";
+  process.env.NEXT_PUBLIC_BACKEND_API_URL ?? "http://localhost:8000";
 
 function timeAgo(iso: string): string {
   const diff = Date.now() - new Date(iso).getTime();
