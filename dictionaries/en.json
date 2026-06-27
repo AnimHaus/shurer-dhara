@@ -58,43 +58,72 @@
     "schools": {
       "subtitle": "Four Continents, One Tradition",
       "title": "Schools of Music",
-      "intro": "What began as a single classroom in Dhaka has grown into a global network of four schools — each rooted in the same tradition, each adapting to its cultural landscape. Shurer Dhara carries the melody of Rabindrasangeet and Bengali performing arts to every corner of the world.",
+      "intro": "What began as a single classroom in Dhaka in 1992 has grown into a global network — each school rooted in the same tradition, each nurturing a new generation of learners. Shurer Dhara carries the melody of Rabindrasangeet and Bengali performing arts to every corner of the world.",
+      "productionsLabel": "Notable Productions",
       "schools": [
-        {
-          "country": "India",
-          "city": "Kolkata",
-          "flag": "🇮🇳",
-          "description": "The birthplace of the tradition. Shurer Dhara's Kolkata chapter is rooted in the spiritual heartland of Rabindrasangeet, offering rigorous training in classical Bengali vocal music and Tagore's compositions.",
-          "address": "Kolkata, West Bengal, India",
-          "image": "https://images.unsplash.com/photo-1587474260584-136574528ed5?w=900&q=80",
-          "founded": "Est. 1995"
-        },
         {
           "country": "Bangladesh",
           "city": "Dhaka",
           "flag": "🇧🇩",
-          "description": "The main centre of Shurer Dhara, based in Dhaka. Founded by Prof. (Dr.) Rezwana Choudhury Bannya, this school is also home to Music for Development and serves hundreds of students each year.",
-          "address": "Dhaka, Bangladesh",
+          "tagline": "The First School · The Living Heart",
+          "description": "Founded in 1992 with just a few students in a small room at her residence, Shurer Dhara Dhaka has grown into one of Bangladesh's foremost heritage music institutions — running thousands of students from across the country through a distinct and curriculum-approved programme in both online and offline modes at its home in Lalmatia. The school has successfully completed its Silver Jubilee with a gala event attended by dignitaries from across continents.",
+          "address": "Lalmatia, Dhaka, Bangladesh",
           "image": "https://images.unsplash.com/photo-1553861879-94a39045c9a0?w=900&q=80",
-          "founded": "Est. 1990"
+          "founded": "Est. 1992",
+          "highlights": ["Thousands of students nationwide", "Online & offline curriculum", "Silver Jubilee celebrated", "Lalmatia, Dhaka"],
+          "productions": []
         },
         {
           "country": "United States",
           "city": "New York",
           "flag": "🇺🇸",
-          "description": "Shurer Dhara's North American presence extends to the vibrant South Asian diaspora community in New York. Monthly workshops, performance events, and regular classes bridge East and West through music.",
-          "address": "New York, NY, United States",
-          "image": "https://images.unsplash.com/photo-1534430480872-3498386e7856?w=900&q=80",
-          "founded": "Est. 2005"
+          "tagline": "The North American Chapter",
+          "description": "Shurer Dhara NY began its journey in June 2019 with in-person classes in Jackson Heights, New York. After transitioning online in June 2020, students from the United States, United Kingdom, Canada, and Turkey now gather every Sunday morning. Many are Shurer Dhara Dhaka alumni from the 1990s, reunited by a shared love of music and the enduring bond of the Shurer Dhara family.",
+          "address": "Jackson Heights, New York, United States",
+          "image": "/shurer_dhara_ny.jpeg",
+          "founded": "Est. 2019",
+          "highlights": ["~35 students", "Every Sunday online", "4 countries connected", "Alumni from the 1990s"],
+          "productions": [
+            {
+              "title": "Kanikanjali",
+              "year": "2024",
+              "description": "A tribute marking the birth centenary of legendary Tagore singer Kanika Bandyopadhyay — performed in New Jersey."
+            },
+            {
+              "title": "Shyama",
+              "year": "2025",
+              "description": "Tagore's dance drama of love, sacrifice, and redemption — performed in New York."
+            },
+            {
+              "title": "COVID-19 Benefit Concert",
+              "year": "2020",
+              "description": "An online fundraiser to support artists and musicians affected by the pandemic."
+            }
+          ]
         },
         {
           "country": "Canada",
           "city": "Toronto",
           "flag": "🇨🇦",
-          "description": "Canada's growing Bengali community found a musical home in Toronto. Shurer Dhara Canada runs classes for all ages and regularly participates in multicultural festivals across Ontario.",
-          "address": "Toronto, Ontario, Canada",
-          "image": "https://images.unsplash.com/photo-1517070208541-6ddc4d3efbcb?w=900&q=80",
-          "founded": "Est. 2008"
+          "tagline": "The Newest Chapter",
+          "description": "Launched on 19 April 2026 by five proud alumni of Shurer Dhara Dhaka, the Toronto chapter carries forward the music, values, and traditions that shaped their own artistic journeys. Gathering every Sunday in Scarborough, children and adults come together to learn, sing, and celebrate the timeless legacy of Rabindranath Tagore — extending Shurer Dhara's melody to yet another corner of the world.",
+          "address": "Scarborough, Toronto, Ontario, Canada",
+          "image": "/shurer_dhara_toronto.jpeg",
+          "founded": "Est. 2026",
+          "highlights": ["Launched April 2026", "Five alumni founders", "Every Sunday", "Scarborough, Toronto"],
+          "productions": []
+        },
+        {
+          "country": "India",
+          "city": "Kolkata",
+          "flag": "🇮🇳",
+          "tagline": "The Spiritual Heartland",
+          "description": "Rooted in the birthplace of Rabindrasangeet, the Kolkata chapter upholds the rigorous classical tradition of Bengali vocal music and Tagore's compositions — a bridge between the origins of the tradition and its living practice today.",
+          "address": "Kolkata, West Bengal, India",
+          "image": "https://images.unsplash.com/photo-1587474260584-136574528ed5?w=900&q=80",
+          "founded": "Est. 1995",
+          "highlights": ["Classical Rabindrasangeet", "Guru-Shishya tradition", "Kolkata, West Bengal"],
+          "productions": []
         }
       ]
     },
