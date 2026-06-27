@@ -80,7 +80,7 @@
           "tagline": "The North American Chapter",
           "description": "Shurer Dhara NY began its journey in June 2019 with in-person classes in Jackson Heights, New York. After transitioning online in June 2020, students from the United States, United Kingdom, Canada, and Turkey now gather every Sunday morning. Many are Shurer Dhara Dhaka alumni from the 1990s, reunited by a shared love of music and the enduring bond of the Shurer Dhara family.",
           "address": "Jackson Heights, New York, United States",
-          "image": "/shurer_dhara_ny.jpeg",
+          "image": "https://cdn.shurerdhara.com/shurer_dhara_ny.jpeg",
           "founded": "Est. 2019",
           "highlights": ["~35 students", "Every Sunday online", "4 countries connected", "Alumni from the 1990s"],
           "productions": [
@@ -108,7 +108,7 @@
           "tagline": "The Newest Chapter",
           "description": "Launched on 19 April 2026 by five proud alumni of Shurer Dhara Dhaka, the Toronto chapter carries forward the music, values, and traditions that shaped their own artistic journeys. Gathering every Sunday in Scarborough, children and adults come together to learn, sing, and celebrate the timeless legacy of Rabindranath Tagore — extending Shurer Dhara's melody to yet another corner of the world.",
           "address": "Scarborough, Toronto, Ontario, Canada",
-          "image": "/shurer_dhara_toronto.jpeg",
+          "image": "https://cdn.shurerdhara.com/shurer_dhara_toronto.jpeg",
           "founded": "Est. 2026",
           "highlights": ["Launched April 2026", "Five alumni founders", "Every Sunday", "Scarborough, Toronto"],
           "productions": []
