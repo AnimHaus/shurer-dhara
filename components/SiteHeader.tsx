@@ -15,10 +15,12 @@ interface SiteHeaderProps {
     schools: string;
     professor: string;
     mfd: string;
+    college: string;
+    gallery: string;
   };
 }
 
-type NavKey = "home" | "schools" | "professor" | "mfd";
+type NavKey = "home" | "schools" | "professor" | "mfd" | "college" | "gallery";
 
 export default function SiteHeader({ lang, labels }: SiteHeaderProps) {
   const pathname = usePathname();
@@ -45,6 +47,8 @@ export default function SiteHeader({ lang, labels }: SiteHeaderProps) {
     if (pathname.endsWith("/bannya")) return "professor";
     if (pathname.endsWith("/schools")) return "schools";
     if (pathname.endsWith("/mfd")) return "mfd";
+    if (pathname.endsWith("/college")) return "college";
+    if (pathname.endsWith("/gallery")) return "gallery";
     return "home";
   };
 
@@ -55,6 +59,8 @@ export default function SiteHeader({ lang, labels }: SiteHeaderProps) {
     { key: "schools", href: `/${lang}/schools` },
     { key: "professor", href: `/${lang}/bannya` },
     { key: "mfd", href: `/${lang}/mfd` },
+    { key: "college", href: `/${lang}/college` },
+    { key: "gallery", href: `/${lang}/gallery` },
   ];
 
   const allMobileItems = [

@@ -68,6 +68,8 @@ export default async function LangLayout({
               schools: dict.nav.schools,
               professor: dict.nav.professor,
               mfd: dict.nav.mfd,
+              college: dict.nav.college,
+              gallery: dict.nav.gallery,
             }}
           />
           <main className="relative z-10 flex-1">{children}</main>

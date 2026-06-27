@@ -6,7 +6,9 @@
     "contact": "Contact",
     "schools": "Schools",
     "professor": "Professor",
-    "mfd": "MFD"
+    "mfd": "MFD",
+    "college": "College",
+    "gallery": "Gallery"
   },
   "home": {
     "schools": {
@@ -200,6 +202,46 @@
         { "year": "2017", "title": "Bangabhusan Award", "desc": "Awarded the Bangabhusan — West Bengal's highest civilian honour — by the Government of West Bengal for her extraordinary contribution to Bengali music and culture." },
         { "year": "2024", "title": "Padma Shri", "desc": "Conferred the Padma Shri by the Government of India — one of India's highest civilian honours — in recognition of her lifelong dedication to Rabindrasangeet and Bengali cultural heritage." }
       ]
+    },
+    "gallery": {
+      "heroLabel": "Gallery",
+      "heroTitle": "Gallery",
+      "heroTagline": "A visual journey through Shurer Dhara — performances, events, and moments that have shaped a living tradition.",
+      "emptyState": "No images yet. Check back soon.",
+      "categories": {
+        "all": "All",
+        "general": "General",
+        "performance": "Performance",
+        "events": "Events",
+        "students": "Students",
+        "college": "College"
+      }
+    },
+    "college": {
+      "heroLabel": "Surer Dhara College of Music",
+      "heroTitle": "Surer Dhara College of Music",
+      "heroTagline": "Bangladesh's first postgraduate diploma programme in music — affiliated with the National University since 2014.",
+      "detailsLabel": "Academic Profile",
+      "detailsTitle": "College at a Glance",
+      "affiliation": "Affiliation",
+      "affiliationValue": "National University, Bangladesh",
+      "affiliationYear": "Affiliated in 2014",
+      "collegeCode": "College Code",
+      "collegeCodeValue": "6610",
+      "course": "Course Offered",
+      "courseValue": "Postgraduate Diploma in Music",
+      "duration": "Course Duration",
+      "durationValue": "1 Year",
+      "eligibility": "Eligibility",
+      "eligibilityValue": "Any graduate may apply for admission.",
+      "sessionStarted": "Academic Session Started",
+      "sessionStartedValue": "2014–2015",
+      "completedBatches": "Completed Batches",
+      "completedBatchesValue": "8 batches have successfully completed the course.",
+      "founder": "Founder",
+      "founderValue": "Professor Dr. Rezwana Chowdhury Bannya",
+      "principal": "Principal",
+      "principalValue": "Professor Dr. Shafi Ahmed"
     },
     "mfd": {
       "initLabel": "An Initiative of Shurer Dhara",
