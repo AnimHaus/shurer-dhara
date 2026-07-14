@@ -14,7 +14,7 @@ export default function CollegeHero({ p }: { p: CollegeDict }) {
       <section className="relative h-[80vh] overflow-hidden flex items-end pb-20 px-8 md:px-24">
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
-          src="/shurer_dhara_college_1.jpeg"
+          src="https://cdn.shurerdhara.com/shurer_dhara_college_1.jpeg"
           alt="Surer Dhara College of Music"
           className="absolute inset-0 w-full h-full object-cover opacity-40"
         />

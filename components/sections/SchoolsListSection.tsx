@@ -53,7 +53,7 @@ export default function SchoolsListSection({
       {/* Header */}
       <motion.div
         style={{ y: yText }}
-        className="flex flex-col md:flex-row md:items-start md:justify-between gap-10 mb-16 border-t border-charcoal/15 pt-10"
+        className="flex flex-col md:flex-row md:items-start md:justify-between gap-10 mb-16 pt-10"
       >
         <p className="text-[10px] uppercase  text-charcoal/40 font-semibold flex items-center gap-2 mt-1">
           {label}

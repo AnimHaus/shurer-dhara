@@ -12,7 +12,7 @@ export default function MFDCtaBanner({ p }: { p: MFDDict }) {
     <section className="relative py-32 px-8 md:px-24 overflow-hidden">
       {/* eslint-disable-next-line @next/next/no-img-element */}
       <img
-        src="/MFD.webp"
+        src="https://cdn.shurerdhara.com/MFD.webp"
         alt="Support MFD"
         className="absolute inset-0 w-full h-full object-cover opacity-20"
       />

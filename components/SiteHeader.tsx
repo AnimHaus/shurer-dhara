@@ -81,12 +81,12 @@ export default function SiteHeader({ lang, labels }: SiteHeaderProps) {
           <Image
             src="/logo.png"
             alt="Shurer Dhara"
-            width={180}
-            height={60}
-            className="h-12 w-auto object-contain"
+            width={240}
+            height={80}
+            className={`w-auto object-contain transition-all duration-500 ${scrolled ? "h-12" : "h-20"}`}
             priority
           />
-          </TransitionLink>
+        </TransitionLink>
 
         {/* Right side */}
         <div className="relative flex items-center gap-8">

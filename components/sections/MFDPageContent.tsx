@@ -31,7 +31,7 @@ export default function MFDPageContent({
       <section className="relative min-h-screen overflow-hidden flex items-center">
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
-          src="/MFD.webp"
+          src="https://cdn.shurerdhara.com/MFD.webp"
           alt="Music for Development"
           className="absolute inset-0 w-full h-full object-cover opacity-35"
         />
@@ -153,7 +153,7 @@ export default function MFDPageContent({
           <div className="relative overflow-hidden min-h-[320px] md:min-h-0">
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
-              src="/our_story.webp"
+              src="https://cdn.shurerdhara.com/our_story.webp"
               alt="Our Story"
               className="w-full h-full object-cover absolute inset-0"
             />
@@ -205,7 +205,7 @@ export default function MFDPageContent({
           <div className="relative overflow-hidden min-h-[320px] md:min-h-0 order-1 md:order-2">
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
-              src="/what_we_do.webp"
+              src="https://cdn.shurerdhara.com/what_we_do.webp"
               alt="What We Do"
               className="w-full h-full object-cover absolute inset-0"
             />
@@ -223,7 +223,7 @@ export default function MFDPageContent({
           <div className="relative overflow-hidden min-h-[320px] md:min-h-0">
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
-              src="/show_case_events.webp"
+              src="https://cdn.shurerdhara.com/show_case_events.webp"
               alt="Showcase of Events"
               className="w-full h-full object-cover absolute inset-0"
             />
@@ -275,7 +275,7 @@ export default function MFDPageContent({
           <div className="relative overflow-hidden min-h-[320px] md:min-h-0 order-1 md:order-2">
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
-              src="/meet_mfd.webp"
+              src="https://cdn.shurerdhara.com/meet_mfd.webp"
               alt="Meet the MFD Children"
               className="w-full h-full object-cover absolute inset-0"
             />
@@ -322,7 +322,7 @@ export default function MFDPageContent({
       <section className="relative py-32 px-8 md:px-24 overflow-hidden">
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
-          src="/MFD.webp"
+          src="https://cdn.shurerdhara.com/MFD.webp"
           alt="Support MFD"
           className="absolute inset-0 w-full h-full object-cover opacity-20"
         />

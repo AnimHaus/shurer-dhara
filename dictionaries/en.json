@@ -5,7 +5,7 @@
     "courses": "Courses",
     "contact": "Contact",
     "schools": "Schools",
-    "professor": "Professor",
+    "professor": "Visionary",
     "mfd": "MFD",
     "college": "College",
     "gallery": "Gallery"
@@ -19,8 +19,8 @@
     },
     "professor": {
       "title": "Prof. (Dr.) Rezwana Choudhury Bannya",
-      "description": "Padma Shri laureate, Independence Day Award recipient, and one of the world's foremost voices in Rabindrasangeet — founder of Shurer Dhara and Music for Development.",
-      "cta": "Meet the Singer"
+      "description": "A recipient of Bangladesh's Independence Award and a Padma Shri laureate, Prof. (Dr.) Rezwana Choudhury Bannya founded Shurer Dhara to carry forward the music and ideals of Rabindranath Tagore, inspiring generations.",
+      "cta": "Meet the Visionary"
     },
     "mfd": {
       "title": "Music for Development",
@@ -31,7 +31,7 @@
   },
   "hero": {
     "title": "Shurer Dhara",
-    "tagline": "The living tradition of Tagore's music, carried across continents by Prof. (Dr.) Rezwana Choudhury Bannya",
+    "tagline": "Nurturing generations through music, culture, and humanity across continents — a vision of Prof. (Dr.) Rezwana Choudhury Bannya",
     "cta": "Begin Your Journey"
   },
   "about": {
@@ -60,7 +60,7 @@
     "schools": {
       "subtitle": "Four Continents, One Tradition",
       "title": "Schools of Music",
-      "intro": "What began as a single classroom in Dhaka in 1992 has grown into a global network — each school rooted in the same tradition, each nurturing a new generation of learners. Shurer Dhara carries the melody of Rabindrasangeet and Bengali performing arts to every corner of the world.",
+      "intro": "From a single classroom in Dhaka in 1992, a quiet dream took root. Guided by the vision of Prof. (Dr.) Rezwana Choudhury Bannya, Shurer Dhara has since blossomed into a global community spanning Bangladesh, Kolkata, New York, and Toronto — carrying the timeless music and humanist ideals of Rabindranath Tagore across generations and across the world.",
       "productionsLabel": "Notable Productions",
       "schools": [
         {
@@ -73,6 +73,19 @@
           "image": "https://images.unsplash.com/photo-1553861879-94a39045c9a0?w=900&q=80",
           "founded": "Est. 1992",
           "highlights": ["Thousands of students nationwide", "Online & offline curriculum", "Silver Jubilee celebrated", "Lalmatia, Dhaka"],
+          "productions": []
+        },
+
+        {
+          "country": "India",
+          "city": "Kolkata",
+          "flag": "🇮🇳",
+          "tagline": "The Spiritual Heartland",
+          "description": "Rooted in the birthplace of Rabindrasangeet, the Kolkata chapter upholds the rigorous classical tradition of Bengali vocal music and Tagore's compositions — a bridge between the origins of the tradition and its living practice today.",
+          "address": "Kolkata, West Bengal, India",
+          "image": "https://cdn.shurerdhara.com/shurer_dhara_kolkata.jpeg",
+          "founded": "Est. 1995",
+          "highlights": ["Classical Rabindrasangeet", "Guru-Shishya tradition", "Kolkata, West Bengal"],
           "productions": []
         },
         {
@@ -113,18 +126,6 @@
           "image": "https://cdn.shurerdhara.com/shurer_dhara_toronto.jpeg",
           "founded": "Est. 2026",
           "highlights": ["Launched April 2026", "Five alumni founders", "Every Sunday", "Scarborough, Toronto"],
-          "productions": []
-        },
-        {
-          "country": "India",
-          "city": "Kolkata",
-          "flag": "🇮🇳",
-          "tagline": "The Spiritual Heartland",
-          "description": "Rooted in the birthplace of Rabindrasangeet, the Kolkata chapter upholds the rigorous classical tradition of Bengali vocal music and Tagore's compositions — a bridge between the origins of the tradition and its living practice today.",
-          "address": "Kolkata, West Bengal, India",
-          "image": "https://images.unsplash.com/photo-1587474260584-136574528ed5?w=900&q=80",
-          "founded": "Est. 1995",
-          "highlights": ["Classical Rabindrasangeet", "Guru-Shishya tradition", "Kolkata, West Bengal"],
           "productions": []
         }
       ]
@@ -323,7 +324,7 @@
     "rights": "All rights reserved.",
     "links": {
       "schools": "Schools",
-      "professor": "Professor",
+      "professor": "Visionary",
       "mfd": "Music for Development",
       "contact": "Contact"
     }

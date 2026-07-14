@@ -26,13 +26,13 @@ export default function SiteFooter({
     <footer className={`relative z-10 py-12 px-8 border-t ${border} ${bg}`}>
       <div className="max-w-5xl mx-auto">
         <div className="flex flex-col md:flex-row items-start justify-between gap-10">
-          <div className="flex flex-col gap-4">
+          <div className="flex flex-col gap-4 items-start">
             <Image
               src="/logo.png"
               alt="Shurer Dhara"
               width={100}
               height={32}
-              className="h-8 w-auto object-contain opacity-70"
+              className="h-20 w-auto object-contain"
             />
             <p className={`${textMuted} text-sm max-w-xs`}>{footer.tagline}</p>
           </div>
@@ -62,21 +62,32 @@ export default function SiteFooter({
             >
               {footer.links.contact}
             </a>
+            <a
+              href="https://www.musicfordevelopment.net"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-xs text-crimson/60 hover:text-crimson transition-colors duration-300 uppercase"
+            >
+              musicfordevelopment.net
+            </a>
           </nav>
         </div>
 
-        <div className={`mt-10 pt-6 border-t ${border} flex items-center justify-between`}>
+        <div className={`mt-10 pt-6 border-t ${border} flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3`}>
           <p className={`${textCopyright} text-xs`}>
             © {new Date().getFullYear()} {footer.rights}
           </p>
-          <a
-            href="https://www.musicfordevelopment.net"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-xs text-crimson/60 hover:text-crimson transition-colors duration-300 uppercase"
-          >
-            musicfordevelopment.net
-          </a>
+          <span className={`text-xs ${textCopyright}`}>
+            Developed by {" "}
+            <a
+              href="https://animhaus.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className={`text-xs ${textCopyright} hover:text-parchment transition-colors duration-300`}
+            >
+              AnimHaus
+            </a>
+          </span>
         </div>
       </div>
     </footer>

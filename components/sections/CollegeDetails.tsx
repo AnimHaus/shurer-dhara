@@ -83,7 +83,7 @@ export default function CollegeDetails({ p }: { p: CollegeDict }) {
           >
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
-              src="/shurer_dhara_college_2.jpeg"
+              src="https://cdn.shurerdhara.com/shurer_dhara_college_2.jpeg"
               alt="Surer Dhara College of Music"
               className="w-full h-full object-cover opacity-75"
             />

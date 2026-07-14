@@ -23,9 +23,6 @@ export default function MFDHero({ lang, p }: { lang: Locale; p: MFDDict }) {
         <div className="absolute inset-0 bg-gradient-to-b from-charcoal/80 via-transparent to-charcoal" />
 
         <div className="relative z-10 px-8 md:px-24 max-w-4xl pt-32">
-          <RevealText onLoad delay={0.2} duration={0.7}>
-            <p className="text-xs uppercase text-crimson font-medium mb-6">{p.initLabel}</p>
-          </RevealText>
           <h1 className="font-display text-5xl md:text-7xl font-bold leading-none mb-8">
               <WordReveal text={p.title} onLoad delay={0.35} duration={1} />
             </h1>

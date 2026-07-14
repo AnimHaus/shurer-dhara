@@ -24,7 +24,7 @@ export default async function HomePage({
         description={dict.home.professor.description}
         href={`/${lang}/bannya`}
         cta={dict.home.professor.cta}
-        image="https://cdn.shurerdhara.com/Rezwana_Choudhury_Bannya_New_Jersey_2.jpg"
+        image="https://cdn.shurerdhara.com/visionary.jpeg"
         split={true}
       />
 

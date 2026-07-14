@@ -8,6 +8,8 @@ import { notFound } from "next/navigation";
 import { hasLocale, locales, getDictionary } from "./dictionaries";
 import LenisProvider from "@/components/LenisProvider";
 import PageTransitionProvider from "@/components/PageTransitionProvider";
+import BackgroundAudio from "@/components/BackgroundAudio";
+import ConsoleLogger from "@/components/ConsoleLogger";
 import SiteHeader from "@/components/SiteHeader";
 import SiteFooter from "@/components/SiteFooter";
 import WhatsAppFAB from "@/components/WhatsAppFAB";
@@ -61,6 +63,8 @@ export default async function LangLayout({
       <body className="min-h-full flex flex-col antialiased bg-parchment text-charcoal">
         <PageTransitionProvider>
         <LenisProvider>
+          <BackgroundAudio />
+          <ConsoleLogger />
           <SiteHeader
             lang={lang as Locale}
             labels={{
