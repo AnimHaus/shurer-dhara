@@ -18,7 +18,7 @@ export default function MFDOurStory({ p }: { p: MFDDict }) {
         <h2 className="font-display text-4xl md:text-5xl font-bold text-white mb-6 leading-tight">
           {p.storyTitle}
         </h2>
-        <div className="space-y-5 text-white/55 leading-relaxed font-light">
+        <div className="space-y-5 text-white/55 leading-relaxed font-medium">
           <p>{p.story1}</p>
           <p>{p.story2}</p>
           <p>{p.story3}</p>

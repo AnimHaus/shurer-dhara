@@ -26,7 +26,7 @@ function getTagline(school: School): string | null {
 
 export default function SchoolsGrid({ p }: { p: SchoolsDict }) {
   return (
-    <section className="pb-32">
+    <section className="pb-1 md:pb-32">
       {p.schools.map((school, i) => {
         const isEven = i % 2 === 0;
         const tagline = getTagline(school);
@@ -65,7 +65,7 @@ export default function SchoolsGrid({ p }: { p: SchoolsDict }) {
               {/* flag pill */}
               <div className="absolute top-6 left-6 flex items-center gap-2 bg-charcoal/70 backdrop-blur-sm px-3 py-1.5 rounded-full border border-white/10">
                 <span className="text-lg leading-none">{school.flag}</span>
-                <span className="text-white/50 text-xs font-medium">{school.city}</span>
+                <span className="text-white/80 text-xs font-medium">{school.city}</span>
               </div>
             </div>
 
@@ -84,7 +84,7 @@ export default function SchoolsGrid({ p }: { p: SchoolsDict }) {
               <h2 className="font-display text-4xl md:text-[3.25rem] font-bold text-white leading-[1.1] mb-2">
                 Shurer Dhara
                 <br />
-                <span className="text-white/50">{school.country}</span>
+                <span className="text-white/80">{school.country}</span>
               </h2>
 
               {/* Tagline */}

@@ -36,7 +36,7 @@ export default function MFDRows({ p }: { p: MFDDict }) {
                 <div className="flex flex-col justify-center px-10 md:px-16 py-16 bg-white/5">
                   <p className="text-xs uppercase text-crimson font-medium mb-4">{row.label}</p>
                   <h2 className="font-display text-3xl md:text-4xl font-bold text-white mb-5 leading-tight">{row.title}</h2>
-                  <p className="text-white/55 leading-relaxed font-light mb-8 text-sm md:text-base">{row.body}</p>
+                  <p className="text-white/55 leading-relaxed font-medium mb-8 text-sm md:text-base">{row.body}</p>
                   <a
                     href={href}
                     target="_blank"
@@ -52,7 +52,7 @@ export default function MFDRows({ p }: { p: MFDDict }) {
                 <div className="flex flex-col justify-center px-10 md:px-16 py-16 bg-charcoal order-2 md:order-1">
                   <p className="text-xs uppercase text-crimson font-medium mb-4">{row.label}</p>
                   <h2 className="font-display text-3xl md:text-4xl font-bold text-white mb-5 leading-tight">{row.title}</h2>
-                  <p className="text-white/55 leading-relaxed font-light mb-8 text-sm md:text-base">{row.body}</p>
+                  <p className="text-white/55 leading-relaxed font-medium mb-8 text-sm md:text-base">{row.body}</p>
                   <a
                     href={href}
                     target="_blank"

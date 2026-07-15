@@ -45,7 +45,7 @@ export default function MFDPageContent({
               <WordReveal text={p.title} onLoad delay={0.35} duration={1} />
             </h1>
           <RevealText onLoad delay={0.55} duration={0.8}>
-            <p className="text-white/55 text-xl leading-relaxed font-light max-w-2xl">{p.tagline}</p>
+            <p className="text-white/55 text-xl leading-relaxed font-medium max-w-2xl">{p.tagline}</p>
           </RevealText>
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -105,7 +105,7 @@ export default function MFDPageContent({
               {p.storyTitle}
             </h2>
           </RevealText>
-          <div className="space-y-5 text-white/55 leading-relaxed font-light">
+          <div className="space-y-5 text-white/55 leading-relaxed font-medium">
             <p>{p.story1}</p>
             <p>{p.story2}</p>
             <p>{p.story3}</p>
@@ -163,7 +163,7 @@ export default function MFDPageContent({
             <RevealText delay={0.05}>
               <h2 className="font-display text-3xl md:text-4xl font-bold text-white mb-5 leading-tight">{p.rows[0].title}</h2>
             </RevealText>
-            <p className="text-white/55 leading-relaxed font-light mb-8 text-sm md:text-base">
+            <p className="text-white/55 leading-relaxed font-medium mb-8 text-sm md:text-base">
               {p.rows[0].body}
             </p>
             <a
@@ -190,7 +190,7 @@ export default function MFDPageContent({
             <RevealText delay={0.05}>
               <h2 className="font-display text-3xl md:text-4xl font-bold text-white mb-5 leading-tight">{p.rows[1].title}</h2>
             </RevealText>
-            <p className="text-white/55 leading-relaxed font-light mb-8 text-sm md:text-base">
+            <p className="text-white/55 leading-relaxed font-medium mb-8 text-sm md:text-base">
               {p.rows[1].body}
             </p>
             <a
@@ -233,7 +233,7 @@ export default function MFDPageContent({
             <RevealText delay={0.05}>
               <h2 className="font-display text-3xl md:text-4xl font-bold text-white mb-5 leading-tight">{p.rows[2].title}</h2>
             </RevealText>
-            <p className="text-white/55 leading-relaxed font-light mb-8 text-sm md:text-base">
+            <p className="text-white/55 leading-relaxed font-medium mb-8 text-sm md:text-base">
               {p.rows[2].body}
             </p>
             <a
@@ -260,7 +260,7 @@ export default function MFDPageContent({
             <RevealText delay={0.05}>
               <h2 className="font-display text-3xl md:text-4xl font-bold text-white mb-5 leading-tight">{p.rows[3].title}</h2>
             </RevealText>
-            <p className="text-white/55 leading-relaxed font-light mb-8 text-sm md:text-base">
+            <p className="text-white/55 leading-relaxed font-medium mb-8 text-sm md:text-base">
               {p.rows[3].body}
             </p>
             <a
@@ -312,7 +312,7 @@ export default function MFDPageContent({
               <div className="w-20 shrink-0">
                 <span className="font-display text-2xl font-bold text-crimson">{item.year}</span>
               </div>
-              <p className="text-white/55 leading-relaxed font-light">{item.event}</p>
+              <p className="text-white/55 leading-relaxed font-medium">{item.event}</p>
             </motion.div>
           ))}
         </div>

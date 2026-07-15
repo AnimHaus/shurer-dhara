@@ -27,7 +27,7 @@ export default function MFDHero({ lang, p }: { lang: Locale; p: MFDDict }) {
               <WordReveal text={p.title} onLoad delay={0.35} duration={1} />
             </h1>
           <RevealText onLoad delay={0.55} duration={0.8}>
-            <p className="text-white/55 text-xl leading-relaxed font-light max-w-2xl">{p.tagline}</p>
+            <p className="text-white/55 text-xl leading-relaxed font-medium max-w-2xl">{p.tagline}</p>
           </RevealText>
           <motion.div
             initial={{ opacity: 0, y: 20 }}

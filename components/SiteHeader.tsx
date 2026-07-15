@@ -70,7 +70,7 @@ export default function SiteHeader({ lang, labels }: SiteHeaderProps) {
   return (
     <>
       <header
-        className={`fixed top-0 left-0 right-0 z-50 flex items-center justify-between px-8 py-4 transition-all duration-500 ease-in-out ${
+        className={`fixed top-0 left-0 right-0 z-50 flex items-center justify-between px-8 py-2 sm:py-4 transition-all duration-500 ease-in-out ${
           scrolled || menuOpen
             ? "backdrop-blur-md bg-charcoal/20"
             : "backdrop-blur-none bg-transparent"
@@ -89,7 +89,7 @@ export default function SiteHeader({ lang, labels }: SiteHeaderProps) {
         </TransitionLink>
 
         {/* Right side */}
-        <div className="relative flex items-center gap-8">
+        <div className="relative flex items-center gap-3 md:gap-8">
           {/* Desktop nav */}
           <nav className="hidden md:flex items-center gap-8">
             {navItems.map(({ key, href }) => (
@@ -109,6 +109,11 @@ export default function SiteHeader({ lang, labels }: SiteHeaderProps) {
 
           {/* Desktop language selector */}
           <div className="hidden md:block">
+            <LanguageSelector currentLang={lang} />
+          </div>
+
+          {/* Mobile language selector (left of hamburger) */}
+          <div className="md:hidden">
             <LanguageSelector currentLang={lang} />
           </div>
 
@@ -174,17 +179,6 @@ export default function SiteHeader({ lang, labels }: SiteHeaderProps) {
             </div>
           ))}
 
-          {/* Language selector inside mobile menu */}
-          <div
-            className="transition-all duration-500 ease-in-out"
-            style={{
-              transitionDelay: menuOpen ? `${100 + allMobileItems.length * 60}ms` : "0ms",
-              opacity: menuOpen ? 1 : 0,
-              transform: menuOpen ? "translateY(0)" : "translateY(16px)",
-            }}
-          >
-            <LanguageSelector currentLang={lang} />
-          </div>
         </nav>
       </div>
     </>

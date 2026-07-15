@@ -65,7 +65,7 @@ export default function ProfessorAwards({ p }: { p: ProfDict }) {
                       </span>
                     )}
                   </div>
-                  <p className="text-charcoal/50 text-sm leading-relaxed">{award.body}</p>
+                  <p className="text-charcoal/50 text-sm leading-relaxed font-medium">{award.body}</p>
                 </div>
               </motion.div>
             ))}

@@ -34,31 +34,31 @@ export default function SiteFooter({
               height={32}
               className="h-20 w-auto object-contain"
             />
-            <p className={`${textMuted} text-sm max-w-xs`}>{footer.tagline}</p>
+            <p className={`${textMuted} text-md md:text-sm max-w-xs`}>{footer.tagline}</p>
           </div>
 
           <nav className="flex flex-col gap-3">
             <TransitionLink
               href={`/${lang}/schools`}
-              className={`text-xs uppercase ${textMuted} ${textHover} transition-colors duration-300`}
+              className={`text-md md:text-xs uppercase ${textMuted} ${textHover} transition-colors duration-300`}
             >
               {footer.links.schools}
             </TransitionLink>
             <TransitionLink
               href={`/${lang}/bannya`}
-              className={`text-xs uppercase ${textMuted} ${textHover} transition-colors duration-300`}
+              className={`text-md md:text-xs uppercase ${textMuted} ${textHover} transition-colors duration-300`}
             >
               {footer.links.professor}
             </TransitionLink>
             <TransitionLink
               href={`/${lang}/mfd`}
-              className={`text-xs uppercase ${textMuted} ${textHover} transition-colors duration-300`}
+              className={`text-md md:text-xs uppercase ${textMuted} ${textHover} transition-colors duration-300`}
             >
               {footer.links.mfd}
             </TransitionLink>
             <a
               href="#contact"
-              className={`text-xs uppercase ${textMuted} ${textHover} transition-colors duration-300`}
+              className={`text-md md:text-xs uppercase ${textMuted} ${textHover} transition-colors duration-300`}
             >
               {footer.links.contact}
             </a>
@@ -66,7 +66,7 @@ export default function SiteFooter({
               href="https://www.musicfordevelopment.net"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-xs text-crimson/60 hover:text-crimson transition-colors duration-300 uppercase"
+              className="text-md md:text-xs text-crimson/60 hover:text-crimson transition-colors duration-300 uppercase"
             >
               musicfordevelopment.net
             </a>
@@ -74,16 +74,16 @@ export default function SiteFooter({
         </div>
 
         <div className={`mt-10 pt-6 border-t ${border} flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3`}>
-          <p className={`${textCopyright} text-xs`}>
+          <p className={`${textCopyright} text-md md:text-xs`}>
             © {new Date().getFullYear()} {footer.rights}
           </p>
-          <span className={`text-xs ${textCopyright}`}>
+          <span className={`text-md md:text-xs ${textCopyright}`}>
             Developed by {" "}
             <a
               href="https://animhaus.com/"
               target="_blank"
               rel="noopener noreferrer"
-              className={`text-xs ${textCopyright} hover:text-parchment transition-colors duration-300`}
+              className={`text-md md:text-xs ${textCopyright} hover:text-parchment transition-colors duration-300`}
             >
               AnimHaus
             </a>

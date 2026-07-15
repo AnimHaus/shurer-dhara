@@ -33,7 +33,7 @@ export default function CollegeHero({ p }: { p: CollegeDict }) {
             <WordReveal text={p.heroTitle} onLoad delay={0.25} />
           </h1>
           <RevealText onLoad delay={0.5} duration={0.8}>
-            <p className="text-white/55 text-lg md:text-xl leading-relaxed font-light max-w-2xl">
+            <p className="text-white/55 text-lg md:text-xl leading-relaxed font-medium max-w-2xl">
               {p.heroTagline}
             </p>
           </RevealText>

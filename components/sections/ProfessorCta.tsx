@@ -18,7 +18,7 @@ export default function ProfessorCta({ lang, p }: { lang: Locale; p: ProfDict })
         className="max-w-2xl mx-auto"
       >
         <h2 className="font-display text-4xl md:text-5xl font-bold text-charcoal mb-6">{p.ctaTitle}</h2>
-        <p className="text-charcoal/60 text-lg mb-10 font-light">{p.ctaSubtitle}</p>
+        <p className="text-charcoal/60 text-lg mb-10 font-medium">{p.ctaSubtitle}</p>
         <div className="flex flex-wrap gap-4 justify-center">
           <TransitionLink
             href={`/${lang}/schools`}

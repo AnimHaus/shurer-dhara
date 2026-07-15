@@ -31,7 +31,7 @@ export default function ProfessorHero({ p }: { p: ProfDict }) {
                 <WordReveal text={p.name} onLoad delay={0.35} duration={1} />
               </h1>
             <RevealText onLoad delay={0.55} duration={0.8}>
-              <p className="text-white/70 text-sm md:text-[16px] leading-relaxed font-light">{p.tagline}</p>
+              <p className="text-white/70 text-md md:text-[16px] leading-relaxed font-medium">{p.tagline}</p>
             </RevealText>
           </motion.div>
         </div>

@@ -14,8 +14,9 @@ import type { Dictionary } from "@/app/[lang]/dictionaries";
 
 const heroSlides = [
   {
-    src: "https://cdn.shurerdhara.com/hero1.jpeg",
+    src: "https://cdn.shurerdhara.com/hero5.jpeg",
     alt: "Prof. Rezwana Choudhury Bannya performing at an Evening on Tagore event, Kolkata 2011",
+    objectPosition: "5% 5%",
   },
   {
     src: "https://cdn.shurerdhara.com/hero2.jpeg",
@@ -157,7 +158,7 @@ export default function HeroSection({ hero }: { hero: Dictionary["hero"] }) {
         </h1>
 
         <RevealText onLoad delay={0.55} duration={0.9}>
-          <p className="mx-auto mb-8 max-w-xl text-base font-light leading-relaxed text-white/55 md:mb-12 md:text-xl">
+          <p className="mx-auto mb-8 max-w-xl text-base font-bold leading-relaxed text-white/55 md:mb-12 md:text-xl">
             {hero.tagline}
           </p>
         </RevealText>

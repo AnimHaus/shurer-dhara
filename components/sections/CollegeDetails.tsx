@@ -27,7 +27,7 @@ function DetailRow({ label, value, delay = 0 }: DetailRowProps) {
       <dt className="text-[11px] uppercase tracking-widest text-crimson/70 font-semibold min-w-[180px] pt-0.5">
         {label}
       </dt>
-      <dd className="text-white/85 text-base leading-relaxed">{value}</dd>
+      <dd className="text-white/85 text-base leading-relaxed font-medium">{value}</dd>
     </motion.div>
   );
 }
@@ -46,7 +46,7 @@ export default function CollegeDetails({ p }: { p: CollegeDict }) {
   ];
 
   return (
-    <section className="pb-32">
+    <section className="pb-1 md:pb-32">
       {/* Label + Title */}
       <div className="px-8 md:px-24 py-20 border-t border-white/10">
         <motion.p

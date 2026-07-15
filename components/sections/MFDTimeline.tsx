@@ -40,7 +40,7 @@ export default function MFDTimeline({ p }: { p: MFDDict }) {
             <div className="w-20 shrink-0">
               <span className="font-display text-2xl font-bold text-crimson">{item.year}</span>
             </div>
-            <p className="text-white/55 leading-relaxed font-light">{item.event}</p>
+            <p className="text-white/55 leading-relaxed font-medium">{item.event}</p>
           </motion.div>
         ))}
       </div>

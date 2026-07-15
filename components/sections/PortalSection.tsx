@@ -12,6 +12,7 @@ interface PortalSectionProps {
   href: string;
   cta: string;
   image: string;
+  imagePosition?: string;
   reverse?: boolean;
   textLeft?: boolean;
   split?: boolean;
@@ -25,6 +26,7 @@ export default function PortalSection({
   href,
   cta,
   image,
+  imagePosition = "center center",
   reverse = false,
   textLeft = false,
   split = false,
@@ -72,7 +74,12 @@ export default function PortalSection({
           <div className="order-first md:order-none h-[100vw] md:h-auto md:flex-1 relative overflow-hidden">
             <motion.div style={{ y: yImg }} className="absolute inset-0 w-full h-[115%] -top-[7.5%]">
               {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img src={image} alt={title} className="w-full h-full object-cover" />
+              <img
+                src={image}
+                alt={title}
+                className="w-full h-full object-cover"
+                style={{ objectPosition: imagePosition }}
+              />
             </motion.div>
           </div>
         </div>
@@ -87,6 +94,7 @@ export default function PortalSection({
               src={image}
               alt={title}
               className="w-full h-full object-cover opacity-50"
+              style={{ objectPosition: imagePosition }}
             />
           </motion.div>
 
@@ -115,7 +123,7 @@ export default function PortalSection({
               </motion.h2>
               {/* Description + CTA: fade in with scroll */}
               <motion.div style={{ opacity, y: yText }}>
-                <p className="text-white/55 text-base md:text-lg leading-relaxed mb-8 md:mb-10 font-light max-w-md">
+                <p className="text-white/55 text-base md:text-lg leading-relaxed mb-8 md:mb-10 font-medium max-w-md">
                   {description}
                 </p>
                 <LinkComponent

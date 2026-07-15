@@ -45,7 +45,7 @@ export default function ProfessorShrutigitabitan({ p }: { p: ProfDict }) {
           <h2 className="font-display text-4xl md:text-5xl font-bold text-charcoal mb-6 leading-tight">
               <WordReveal text={p.shrutiTitle} delay={0.1} />
             </h2>
-          <p className="text-charcoal/65 leading-relaxed font-light text-lg mb-8">
+          <p className="text-charcoal/65 leading-relaxed font-medium text-lg mb-8">
             {p.shrutiBody}
           </p>
           <div className="flex gap-8">

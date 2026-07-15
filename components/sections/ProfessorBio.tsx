@@ -22,7 +22,7 @@ export default function ProfessorBio({ p }: { p: ProfDict }) {
         <h2 className="font-display text-4xl md:text-5xl font-bold text-charcoal mb-6 leading-tight">
             <WordReveal text={p.aboutTitle} delay={0.1} />
           </h2>
-        <div className="space-y-5 text-charcoal/65 leading-relaxed font-light">
+        <div className="space-y-5 text-charcoal/65 leading-relaxed font-medium">
           <p>{p.bio1}</p>
           <p>{p.bio2}</p>
           <p>{p.bio3}</p>
@@ -38,7 +38,7 @@ export default function ProfessorBio({ p }: { p: ProfDict }) {
       >
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
-          src="https://cdn.shurerdhara.com/Rezwana_Choudhury_Bannya_New_Jersey_2_(cropped).jpg"
+          src="https://cdn.shurerdhara.com/rezwana_bannya.jpeg"
           alt="Prof. (Dr.) Rezwana Choudhury Bannya"
           className="w-full aspect-[4/5] object-cover object-top"
         />
