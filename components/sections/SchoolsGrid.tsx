@@ -95,7 +95,7 @@ export default function SchoolsGrid({ p }: { p: SchoolsDict }) {
               )}
 
               {/* Description */}
-              <p className="text-white/55 leading-relaxed text-sm font-light mb-8 max-w-[26rem]">
+              <p className="text-white/55 leading-relaxed text-sm font-bold mb-8 max-w-[26rem]">
                 {school.description}
               </p>
 

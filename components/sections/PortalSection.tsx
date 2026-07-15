@@ -56,7 +56,7 @@ export default function PortalSection({
                 <WordReveal text={title} />
               </motion.h2>
               <motion.div style={{ opacity, y: yText }}>
-                <p className="text-white/55 text-base md:text-lg leading-relaxed mb-8 md:mb-10 font-light max-w-md">
+                <p className="text-white/55 text-base md:text-lg leading-relaxed mb-8 md:mb-10 font-bold max-w-md">
                   {description}
                 </p>
                 <LinkComponent
