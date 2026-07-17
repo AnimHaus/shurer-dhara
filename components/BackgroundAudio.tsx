@@ -52,7 +52,7 @@ export default function BackgroundAudio() {
       aria-hidden="true"
       className="hidden"
     >
-      <source src="https://cdn.shurerdhara.com/bg-audio.mp3" type="audio/mpeg" />
+      <source src="https://cdn.shurerdhara.com/bg-audio/bg-audio.mp3" type="audio/mpeg" />
     </audio>
   );
 }

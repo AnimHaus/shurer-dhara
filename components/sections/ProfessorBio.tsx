@@ -16,9 +16,6 @@ export default function ProfessorBio({ p }: { p: ProfDict }) {
         viewport={{ once: true }}
         transition={{ duration: 0.9, ease: [0.22, 1, 0.36, 1] }}
       >
-        <RevealText>
-          <p className="text-xs uppercase text-crimson font-medium mb-5">{p.aboutLabel}</p>
-        </RevealText>
         <h2 className="font-display text-4xl md:text-5xl font-bold text-charcoal mb-6 leading-tight">
             <WordReveal text={p.aboutTitle} delay={0.1} />
           </h2>

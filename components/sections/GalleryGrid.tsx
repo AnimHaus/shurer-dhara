@@ -14,6 +14,7 @@ interface GalleryImage {
   title: string;
   caption?: string | null;
   category: string;
+  year?: string | null;
   url: string;
   active: boolean;
   order: number;
@@ -37,6 +38,7 @@ export default function GalleryGrid({ p }: Props) {
   const [folders, setFolders] = useState<GalleryFolder[]>([]);
   const [loading, setLoading] = useState(true);
   const [activeCategory, setActiveCategory] = useState<string>(ALL_SLUG);
+  const [activeYear, setActiveYear] = useState<string>("all");
   const [visibleCount, setVisibleCount] = useState(PAGE_SIZE);
   const [lightbox, setLightbox] = useState<GalleryImage | null>(null);
   const sentinelRef = useRef<HTMLDivElement>(null);
@@ -54,14 +56,19 @@ export default function GalleryGrid({ p }: Props) {
       .catch(() => setLoading(false));
   }, []);
 
-  // Reset visible count when category changes
+  // Reset visible count when category or year changes
   useEffect(() => {
     setVisibleCount(PAGE_SIZE);
-  }, [activeCategory]);
+  }, [activeCategory, activeYear]);
 
-  const filtered = activeCategory === ALL_SLUG
-    ? images
-    : images.filter((img) => img.category === activeCategory);
+  // Build sorted unique years from live images
+  const years = [...new Set(
+    images.map((img) => img.year).filter((y): y is string => !!y)
+  )].sort((a, b) => b.localeCompare(a));
+
+  const filtered = images
+    .filter((img) => activeCategory === ALL_SLUG || img.category === activeCategory)
+    .filter((img) => activeYear === "all" || img.year === activeYear);
 
   const visible = filtered.slice(0, visibleCount);
   const hasMore = visibleCount < filtered.length;
@@ -113,6 +120,35 @@ export default function GalleryGrid({ p }: Props) {
           </button>
         ))}
       </div>
+
+      {/* Year filter pills — only shown when images have years tagged */}
+      {years.length > 0 && (
+        <div className="flex flex-wrap gap-2 pb-8 -mt-4">
+          <button
+            onClick={() => setActiveYear("all")}
+            className={`px-4 py-1.5 rounded-full text-xs font-semibold transition-all duration-300 ${
+              activeYear === "all"
+                ? "bg-white/20 text-white ring-1 ring-white/30"
+                : "text-white/40 hover:text-white/70"
+            }`}
+          >
+            All Years
+          </button>
+          {years.map((y) => (
+            <button
+              key={y}
+              onClick={() => setActiveYear(y)}
+              className={`px-4 py-1.5 rounded-full text-xs font-semibold transition-all duration-300 ${
+                activeYear === y
+                  ? "bg-white/20 text-white ring-1 ring-white/30"
+                  : "text-white/40 hover:text-white/70"
+              }`}
+            >
+              {y}
+            </button>
+          ))}
+        </div>
+      )}
 
       {/* Grid */}
       {loading ? (

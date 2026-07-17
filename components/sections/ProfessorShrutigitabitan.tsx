@@ -39,16 +39,13 @@ export default function ProfessorShrutigitabitan({ p }: { p: ProfDict }) {
           viewport={{ once: true }}
           transition={{ duration: 0.9, ease: [0.22, 1, 0.36, 1] }}
         >
-          <RevealText>
-            <p className="text-xs uppercase text-crimson font-medium mb-5">{p.shrutiLabel}</p>
-          </RevealText>
           <h2 className="font-display text-4xl md:text-5xl font-bold text-charcoal mb-6 leading-tight">
               <WordReveal text={p.shrutiTitle} delay={0.1} />
             </h2>
           <p className="text-charcoal/65 leading-relaxed font-medium text-lg mb-8">
             {p.shrutiBody}
           </p>
-          <div className="flex gap-8">
+          <div className="flex flex-wrap gap-8">
             <div>
               <p className="font-display text-3xl font-bold text-charcoal">{p.shrutiStat400}</p>
               <p className="text-xs text-charcoal/50 uppercase  mt-1">{p.shrutiStatSingers}</p>

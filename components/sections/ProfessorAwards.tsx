@@ -18,12 +18,9 @@ export default function ProfessorAwards({ p }: { p: ProfDict }) {
           transition={{ duration: 0.7 }}
           className="mb-16"
         >
-          <RevealText>
-            <p className="text-xs uppercase text-crimson font-medium mb-4">{p.awardsLabel}</p>
-          </RevealText>
           <h2 className="font-display text-4xl md:text-5xl font-bold text-charcoal">
-              <WordReveal text={p.awardsTitle} delay={0.1} />
-            </h2>
+            <WordReveal text={p.awardsTitle} delay={0.1} />
+          </h2>
         </motion.div>
 
         <div className="relative">
