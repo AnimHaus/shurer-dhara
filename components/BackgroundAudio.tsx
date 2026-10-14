@@ -9,6 +9,16 @@ export default function BackgroundAudio() {
     const audio = audioRef.current;
     if (!audio) return;
 
+    const apiBase = process.env.NEXT_PUBLIC_BASE_URL ?? "http://localhost:8000";
+    fetch(`${apiBase}/api/bg-audio`)
+      .then((r) => r.json())
+      .then((data) => {
+        if (typeof data.volume === "number" && audio) {
+          audio.volume = Math.max(0, Math.min(1, data.volume));
+        }
+      })
+      .catch(() => {});
+
     const tryPlay = async () => {
       try {
         await audio.play();
